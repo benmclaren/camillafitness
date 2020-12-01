@@ -5,3 +5,28 @@ theme = "clean"
 
 [permalinks]
   page = "/:title/"
+
+[[menu.nav]]
+  name = "About"
+  url = "/about/"
+  weight = 5
+
+[[menu.nav]]
+  name = "Services"
+  url = "/services/"
+  weight = 10
+
+[[menu.nav]]
+  name = "Testimonials"
+  url = "/testimonials/"
+  weight = 15
+
+[[menu.nav]]
+  name = "Pricing"
+  url = "/pricing/"
+  weight = 20
+
+[[menu.nav]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 25
