@@ -1,6 +1,6 @@
-<header>
+<footer>
   <nav>
-    <h1>ccpt</h1>
+    <!-- logo -->
     <ul>
       {{ range .Site.Menus.nav }}
         <li>
@@ -8,6 +8,6 @@
         </li>
       {{ end }}
     </ul>
-    <a href="/contact">Book a Session</a>
+    <a href="{{ .Site.Params.socialInstagram }}"></a>
   </nav>
-</header>
+</footer>

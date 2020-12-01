@@ -30,3 +30,6 @@ theme = "clean"
   name = "Contact"
   url = "/contact/"
   weight = 25
+
+[params]  
+  socialInstagram = "https://www.instagram.com/camillafitness_pt/"
