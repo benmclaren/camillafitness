@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Camilla Fitness"
 theme = "clean"
+
+[permalinks]
+  page = "/:title/"
