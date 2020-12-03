@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}
+    <h2>{{ . }}</h2>
+  {{ else }}
+    <h2>{{ .Site.Params.subtitle }}</h2>
+  {{ end }}
+  {{ range .Site.Data.testimonials }}
+    <p>{{ .text }}</p>
+    <p>{{ .author }}</p>
+  {{ end }}
+{{ end }}

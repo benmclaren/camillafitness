@@ -1,0 +1,22 @@
+<div class="{{- if eq .Params.color "black" -}} 
+              black 
+            {{- else if eq .Params.color "aqua" -}} 
+              aqua 
+            {{- end -}}">
+  <h3>{{ .Params.title }}</h3>
+  <h4>{{ .Params.description }}</h4>
+  {{ $badge_text := .Params.badge_text }}
+  {{- if eq .Params.badge true -}}
+    {{- $badge_text -}}
+  {{- end -}}
+</div>
+
+
+
+
+
+
+
+
+
+

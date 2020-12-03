@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}
+    <h2>{{ . }}</h2>
+  {{ else }}
+    <h2>{{ .Site.Params.subtitle }}</h2>
+  {{ end }}
+  {{ range .Pages }}
+    <article>
+      <h3>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
+      <p>{{ .Params.description }}</p>
+    </article>
+    <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
+  {{ end }}
+{{ end }}
