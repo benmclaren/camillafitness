@@ -1,0 +1,8 @@
+<section class="service {{ if eq .Params.bg_color "grey" }}grey{{ end }}">
+  <h3>{{ .Params.title }}</h3>
+  {{- range .Params.card -}}
+    {{ .title }}
+    {{ .description }}
+    {{ $.Title }}
+  {{- end -}}
+</section>
