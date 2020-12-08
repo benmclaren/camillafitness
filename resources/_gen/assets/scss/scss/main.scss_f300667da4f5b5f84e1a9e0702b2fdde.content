@@ -1,2 +1,25 @@
-body {
-  color: red; }
+header {
+  margin-left: 32px;
+  margin-right: 32px;
+  height: 88px;
+  display: flex; }
+
+.navbar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between; }
+  .navbar-links li {
+    list-style-type: none; }
+  .navbar-links li:not(:last-child) {
+    margin-right: 24px; }
+  .navbar-links a {
+    text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
