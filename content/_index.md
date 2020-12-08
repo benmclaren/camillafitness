@@ -1,5 +1,6 @@
 ---
 title: 'homepage'
+layout: advanced
 blocks: 
   - component: service
     title: 1-1 Personal Training
