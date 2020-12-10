@@ -1,13 +1,20 @@
 <header>
-  <nav class="navbar-header">
-    <a href="/"><p>ccpt</p></a>
-    <ul class="navbar-links">
-      {{ range .Site.Menus.nav }}
-        <li>
-          <a href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-      {{ end }}
-    </ul>
-    <a href="/contact">Book a Session</a>
+  <nav>
+    <div class="navbar-header">
+      <a href="/"><p>ccpt</p></a>
+      <ul class="navbar-desktop-links">
+        {{ range .Site.Menus.nav }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+      <a href="/contact">Book a Session</a>
+      <div class="burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+    </div>
   </nav>
 </header>
