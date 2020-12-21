@@ -23,14 +23,16 @@ const mobileNav = document.querySelector('.offscreen-nav');
 burger.addEventListener('click', () => {
   burger.classList.toggle('toggle');
   mobileNav.classList.toggle('open');
+  accessible();
 });
 
 
-const navButton = document.querySelector('.burger');
 
-navButton.addEventListener('click', () => {
-  let expanded = this.getAttribute('aria-expanded') === 'true' || false;
-  this.setAttribute('aria-expanded', !expanded);
-  let menu = this.nextElementSibling;
-  menu.hidden = !menu.hidden;
-});
+const accessible = () => {
+  let expanded = burger.getAttribute('aria-expanded') === 'true' || false;
+  burger.setAttribute('aria-expanded', !expanded);
+  let menu = document.querySelector('.offscreen-nav-links');
+  menu = menu.toggleAttribute("hidden");
+}
+
+
