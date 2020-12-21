@@ -1,0 +1,15 @@
+/*
+ * Thanks to Mattias: https://matthiasott.com/notes/focus-visible-is-here
+*/
+
+:focus {
+  outline: 3px solid var(--color-accent);
+}
+
+:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+}
