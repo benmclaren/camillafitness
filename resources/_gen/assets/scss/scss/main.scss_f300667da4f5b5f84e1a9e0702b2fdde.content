@@ -43,7 +43,9 @@ nav {
 
 .burger {
   cursor: pointer;
-  z-index: 10; }
+  z-index: 10;
+  border: none;
+  background-color: transparent; }
 
 @media (min-width: 720px) {
   .navbar-desktop-links {
@@ -94,3 +96,6 @@ nav {
 
 a {
   text-decoration: none; }
+
+[hidden] {
+  display: none; }

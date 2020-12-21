@@ -25,3 +25,12 @@ burger.addEventListener('click', () => {
   mobileNav.classList.toggle('open');
 });
 
+
+const navButton = document.querySelector('.burger');
+
+navButton.addEventListener('click', () => {
+  let expanded = this.getAttribute('aria-expanded') === 'true' || false;
+  this.setAttribute('aria-expanded', !expanded);
+  let menu = this.nextElementSibling;
+  menu.hidden = !menu.hidden;
+});
