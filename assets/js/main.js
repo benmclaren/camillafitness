@@ -18,8 +18,10 @@
 
 
 const burger = document.querySelector('.burger');
+const mobileNav = document.querySelector('.offscreen-nav');
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('toggle');
-  console.log('hi');
+  mobileNav.classList.toggle('open');
 });
+
