@@ -1,6 +1,9 @@
 
     <nav class="offscreen-nav">
       <ul class="offscreen-nav-links" hidden>
+        <li>
+          <a href="/">Home</a>
+        </li>
         {{ range .Site.Menus.nav }}
           <li>
             <a href="{{ .URL }}">{{ .Name }}</a>
