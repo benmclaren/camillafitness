@@ -1,0 +1,36 @@
+.Button {
+  border: none;
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xxs);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: calc(var(--space)*1.5) calc(var(--space) *2);
+  transition-duration: 0.4s;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover {
+    border: none;
+    text-decoration: none !important;
+  }
+}
+
+.Button--primary {
+  background: var(--color-dark);
+  color: var(--color-white) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  text-rendering: optimizeLegibility;
+}
+
+.Button--primary:hover,
+.Button--primary:focus,
+.Button--primary:active,
+.Button--primary.is-pressed {
+  background-color: var(--color-dark);
+  box-shadow: 0 10px 28px rgba(47, 47, 47, .3);
+  transform: translateY(-2px);
+}
