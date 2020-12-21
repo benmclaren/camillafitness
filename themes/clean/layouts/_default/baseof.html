@@ -3,11 +3,13 @@
 {{- partial "head.html" . -}}
 <body>
   {{- partial "header.html" . -}}
+  {{- partial "offscreen-nav.html" . -}}
   <main>
     <!--  - = no more whitespace -->
     {{- block "main" . }}
     {{- end }}
   </main>
+  {{- partial "instafeed.html" . -}}
   {{- partial "footer.html" . -}}
   {{- partial "scripts.html" . -}}
 </body>
