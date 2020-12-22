@@ -1,5 +1,6 @@
 @import "components/index.scss";
 @import "pages/index.scss";
+@import "abstracts/index.scss";
 
 // css reset 
 
@@ -14,4 +15,18 @@ a {
 
 [hidden] {
   display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+  font-family: 'Poppins';
+}
+
+a,
+p {
+  font-family: 'DM Sans';
 }
