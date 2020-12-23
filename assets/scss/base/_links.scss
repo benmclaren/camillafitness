@@ -1,35 +1,47 @@
-a[class] {
+.hover {
   color: var(--color-dark);
   text-decoration: none;
   display: inline-block;
-
-  &:hover {
-    text-decoration: underline;
-    outline-width: 0;
-  }
-
-  &:active,
-  &:focus {
-    box-shadow: solid 1px var(--color-accent);
-    outline-offset: 2px;
-  }
-
+  position: relative;
+}
+  
+.hover::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-dark);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
 }
 
+.hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+// &:active,
+// &:focus {
+//   box-shadow: solid 1px var(--color-accent);
+//   outline-offset: 2px;
+// }
+
+
 a:not([class]) {
-  color: var(--color-link);
+  color: var(--color-brand);
   cursor: pointer;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
 
   &:hover {
-    background: var(--color-link);
-    color: var(--color-white);
-    text-decoration: none;
+    color: var(--color-accent);
   }
 
   &:active,
   &:focus {
-    outline: dotted 1px var(--color-link);
+    outline: dotted 1px var(--color-brand);
   }
 }
