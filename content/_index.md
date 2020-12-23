@@ -1,6 +1,9 @@
 ---
-title: 'homepage'
+title: 'Personal Training, Pre & Post Natal & HIIT Classes.'
+subtitle: 'Feel good in your body, heart and mind.'
+image: "v1608728878/camillafitness/camilla-cresswell-hero-image.jpg"
 insert: 'Camillia is a certified level 3 personal trainer offering flexible, fun and effective 1-1 training sessions and group HITT classes in Shipston and the surrounding areas.'
+
 blocks: 
   - component: service
     title: 1-1 Personal Training
@@ -16,11 +19,11 @@ blocks:
     link: /services/train-together/
   - component: service
     title: Pre Natal Training
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+    description: Safe exercises and nutritional advice.
     link: /services/pre-natal-training/
   - component: service
     title: Post Partum Training
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+    description: Regain your physical strength.
     link: /services/post-partum-training/
 ---
 This is the homepage

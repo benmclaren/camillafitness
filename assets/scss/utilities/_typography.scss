@@ -11,3 +11,15 @@
 .text-justify {
   text-align: justify;
 }
+
+.page-title {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  margin: calc(var(--space) *4) 0;
+}
+
+.page-subtitle {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  line-height: var(--line-height-xs);
+}
