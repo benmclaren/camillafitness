@@ -144,28 +144,6 @@ aside.primary {
 :focus-visible {
   outline: 3px solid var(--color-accent); }
 
-.hover {
-  color: var(--color-dark);
-  text-decoration: none;
-  display: inline-block;
-  position: relative; }
-
-.hover::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-dark);
-  transform-origin: bottom left;
-  transition: transform 0.25s ease-out; }
-
-.hover:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left; }
-
 a:not([class]) {
   color: var(--color-brand);
   cursor: pointer;
@@ -415,6 +393,28 @@ nav {
   transition: .2s; }
   .logo:hover {
     color: var(--color-brand); }
+
+.hover {
+  color: var(--color-dark);
+  text-decoration: none;
+  display: inline-block;
+  position: relative; }
+
+.hover::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-dark);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out; }
+
+.hover:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left; }
 
 .font-mono {
   font-family: var(--font-mono);
