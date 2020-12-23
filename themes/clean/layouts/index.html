@@ -1,5 +1,32 @@
 {{ define "main" }}
-  <h1 class="text-center">{{ .Title }}</h1>
+  <section class="hero container">
+    {{ with .Params.subtitle }}
+      <h2 class="text-center page-subtitle">{{ . }}</h2>
+    {{ else }}
+      <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
+    {{ end }}
+      <h1 class="text-center page-title">{{ .Title }}</h1>
+  </section>
+  
+  <figure class="container-wide">
+    <div class="aspect-ratio-wide">
+      <img 
+      sizes="(min-width: 30em) 30em, 100vw" 
+      srcset ="https://res.cloudinary.com/harrycresswell/image/upload/w_256,q_100/{{ .Params.image }} 256w,
+              https://res.cloudinary.com/harrycresswell/image/upload/w_512,q_100/{{ .Params.image }} 512w,
+              https://res.cloudinary.com/harrycresswell/image/upload/w_768,q_100/{{ .Params.image }} 768w,
+              https://res.cloudinary.com/harrycresswell/image/upload/w_1024,q_100/{{ .Params.image }} 1024w,
+              https://res.cloudinary.com/harrycresswell/image/upload/w_1280,q_100/{{ .Params.image }} 1280w"
+      src="  https://res.cloudinary.com/harrycresswell/image/upload/w_auto,q_100/{{ .Params.image }}"
+      alt />
+    </div>
+  </figure>
+
+
+
+
+  
+
   {{ range .Params.blocks }}
     {{ if eq .component "service"  }}
       {{ partial "blocks/service" (dict "Params" .) }}

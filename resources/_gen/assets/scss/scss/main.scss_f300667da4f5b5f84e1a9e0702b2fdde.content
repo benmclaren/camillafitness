@@ -108,6 +108,7 @@ aside.primary {
   --font-heading: "Poppins", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: "Roboto Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
   --font-mono-bold: "Roboto Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  --font-size-xxl: 4rem;
   --font-size-xl: 3rem;
   --font-size-lg: 2.5rem;
   --font-size-md: 1.5rem;
@@ -192,7 +193,7 @@ ol[class] {
   list-style: none; }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block; }
 
 input,
@@ -259,6 +260,20 @@ p > code {
   color: var(--color-accent);
   font-size: 93%;
   padding: 4px; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; }
+
+.container-wide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px; }
+
+.hero {
+  margin-top: calc(var(--space) *8);
+  margin-bottom: calc(var(--space) *8); }
 
 header,
 footer {
@@ -383,6 +398,10 @@ nav {
 .Button--primary.is-pressed {
   background-color: var(--color-brand); }
 
+.hero-image {
+  margin: calc(var(--space) *8) auto;
+  max-width: 1500px; }
+
 .logo {
   font-size: var(--font-size-lg);
   text-decoration: none;
@@ -393,6 +412,47 @@ nav {
   transition: .2s; }
   .logo:hover {
     color: var(--color-brand); }
+
+/*------------------------------------*\
+    #COMPONENTS: RATIO
+\*------------------------------------*/
+/**
+ * A utility that provides you with a predictable aspect ratio
+ *
+ * 16:9 = ratio wide
+ * 1:1 = ratio square
+ * 3:2 = ratio classic
+ * 4:3 = ratio landscape
+ * 3:4 = ratio portrait
+ */
+[class*='ratio-'] {
+  background-color: #f6f6f6;
+  display: block;
+  position: relative; }
+
+[class*='ratio-'] > * {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.aspect-ratio-wide {
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */ }
+
+.aspect-ratio-square {
+  padding-bottom: 100%;
+  /* 1:1 Aspect Ratio */ }
+
+.aspect-ratio-landscape {
+  padding-bottom: 75%;
+  /* 4:3 Aspect Ratio */ }
+
+.aspect-ratio-portrait {
+  padding-bottom: 133%;
+  /* 3:4 Aspect Ratio */ }
 
 .hover {
   color: var(--color-dark);
@@ -426,6 +486,16 @@ nav {
 
 .text-justify {
   text-align: justify; }
+
+.page-title {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  margin: calc(var(--space) *4) 0; }
+
+.page-subtitle {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  line-height: var(--line-height-xs); }
 
 * {
   margin: 0;

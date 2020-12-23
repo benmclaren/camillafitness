@@ -1,10 +1,13 @@
 {{ define "main" }}
-  <h1 class="text-center">{{ .Title }}</h1>
-  {{ with .Params.subtitle }}
-    <h2>{{ . }}</h2>
-  {{ else }}
-    <h2>{{ .Site.Params.subtitle }}</h2>
-  {{ end }}
+  <section class="hero container">
+    <h1 class="text-center page-title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}
+      <h2 class="text-center page-subtitle">{{ . }}</h2>
+    {{ else }}
+      <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
+    {{ end }}
+  </section>
+
   {{ range .Site.Data.testimonials }}
     <p>{{ .text }}</p>
     <p>{{ .author }}</p>
