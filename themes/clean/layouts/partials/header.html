@@ -1,15 +1,15 @@
 <header>
   <nav>
     <div class="navbar-header">
-      <a href="/"><p>ccpt</p></a>
+      <a href="/" class="logo"><p>ccpt</p></a>
       <ul class="navbar-desktop-links">
         {{ range .Site.Menus.nav }}
           <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}" class="header-links hover">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
-      <a href="/contact">Book a Session</a>
+      <a href="/contact" class="Button Button--primary">Book a Session</a>
       <button aria-expanded="false" class="burger">
         <div class="line-1"></div>
         <div class="line-2"></div>

@@ -2,13 +2,13 @@
   border: none;
   font-family: var(--font-mono);
   font-size: var(--font-size-xxs);
-  text-transform: uppercase;
   letter-spacing: 1px;
   padding: calc(var(--space)*1.5) calc(var(--space) *2);
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
   vertical-align: middle;
   white-space: nowrap;
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     border: none;
@@ -19,6 +19,7 @@
 .Button--primary {
   background: var(--color-dark);
   color: var(--color-white) !important;
+  padding: 14px 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
@@ -30,7 +31,5 @@
 .Button--primary:focus,
 .Button--primary:active,
 .Button--primary.is-pressed {
-  background-color: var(--color-dark);
-  box-shadow: 0 10px 28px rgba(47, 47, 47, .3);
-  transform: translateY(-2px);
+  background-color: var(--color-brand);
 }

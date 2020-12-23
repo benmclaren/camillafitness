@@ -1,32 +1,17 @@
-@import "components/index.scss";
-@import "pages/index.scss";
 @import "abstracts/index.scss";
+@import "base/index.scss";
+@import "components/index.scss";
+@import "objects/index.scss";
+@import "pages/index.scss";
+@import "utilities/index.scss";
 
 // css reset 
-
 * {
   margin: 0;
   padding: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 [hidden] {
   display: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 { 
-  font-family: 'Poppins';
-}
-
-a,
-p {
-  font-family: 'DM Sans';
-}
