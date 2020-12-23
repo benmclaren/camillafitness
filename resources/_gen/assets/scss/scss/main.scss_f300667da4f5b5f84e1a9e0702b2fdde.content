@@ -384,12 +384,12 @@ nav {
   background-color: var(--color-brand); }
 
 .logo {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-md);
   text-decoration: none;
   color: var(--color-dark);
-  font-family: var(--font-mono);
+  font-family: var(--font-heading);
   font-weight: 700;
-  letter-spacing: -6px;
+  letter-spacing: -3px;
   transition: .2s; }
   .logo:hover {
     color: var(--color-brand); }
