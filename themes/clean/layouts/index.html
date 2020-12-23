@@ -22,10 +22,7 @@
     </div>
   </figure>
 
-
-
-
-  
+  {{ .Params.insert }}
 
   {{ range .Params.blocks }}
     {{ if eq .component "service"  }}
