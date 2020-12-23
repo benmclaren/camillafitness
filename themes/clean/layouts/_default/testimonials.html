@@ -8,8 +8,11 @@
     {{ end }}
   </section>
 
-  {{ range .Site.Data.testimonials }}
-    <p>{{ .text }}</p>
-    <p>{{ .author }}</p>
-  {{ end }}
+  <div class="text-container">
+    {{ range .Site.Data.testimonials }}
+      <p>{{ .text }}</p>
+      <p>{{ .author }}</p>
+    {{ end }}
+  </div>
+
 {{ end }}

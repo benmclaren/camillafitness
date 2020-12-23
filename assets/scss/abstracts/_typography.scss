@@ -17,7 +17,7 @@
   --line-height-lg: 2;
   --line-height-md: 1.5;
   --line-height-sm: 1.4;
-  --line-height-xs: 1;
+  --line-height-xs: 1.2;
 
   @include breakpoint(md) {
     --font-size-xl: 4.5rem; // 72px ÷ 16px

@@ -122,7 +122,7 @@ aside.primary {
   --line-height-lg: 2;
   --line-height-md: 1.5;
   --line-height-sm: 1.4;
-  --line-height-xs: 1; }
+  --line-height-xs: 1.2; }
   @media (min-width: 48em) {
     :root {
       --font-size-xl: 4.5rem;
@@ -275,6 +275,11 @@ p > code {
   margin-top: calc(var(--space) *8);
   margin-bottom: calc(var(--space) *8); }
 
+.text-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px; }
+
 header,
 footer {
   margin-left: 32px;
@@ -366,6 +371,9 @@ nav {
   list-style-type: none; }
   .offscreen-nav-links li a {
     color: #fff; }
+
+.page-content p + p {
+  margin-top: calc(var(--space) *4); }
 
 .Button {
   border: none;
