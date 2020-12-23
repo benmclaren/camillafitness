@@ -79,6 +79,16 @@ aside.primary {
   src: local(""), url("../fonts/roboto-mono-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono-v12-latin-300.woff2") format("woff2"), url("../fonts/roboto-mono-v12-latin-300.woff") format("woff"), url("../fonts/roboto-mono-v12-latin-300.ttf") format("truetype"), url("../fonts/roboto-mono-v12-latin-300.svg#RobotoMono") format("svg");
   /* Legacy iOS */ }
 
+/* roboto-mono-700 - latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-mono-v12-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-mono-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono-v12-latin-700.woff2") format("woff2"), url("../fonts/roboto-mono-v12-latin-700.woff") format("woff"), url("../fonts/roboto-mono-v12-latin-700.ttf") format("truetype"), url("../fonts/roboto-mono-v12-latin-700.svg#RobotoMono") format("svg");
+  /* Legacy iOS */ }
+
 :root {
   --space: calc(1rem/2); }
 
@@ -97,6 +107,7 @@ aside.primary {
   --font-default: "DM Sans", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-heading: "Poppins", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-mono: "Roboto Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  --font-mono-bold: "Roboto Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
   --font-size-xl: 3rem;
   --font-size-lg: 2.5rem;
   --font-size-md: 1.5rem;
@@ -393,6 +404,17 @@ nav {
 .Button--primary:active,
 .Button--primary.is-pressed {
   background-color: var(--color-brand); }
+
+.logo {
+  font-size: var(--font-size-lg);
+  text-decoration: none;
+  color: var(--color-dark);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: -6px;
+  transition: .2s; }
+  .logo:hover {
+    color: var(--color-brand); }
 
 .font-mono {
   font-family: var(--font-mono);

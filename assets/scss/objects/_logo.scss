@@ -1,0 +1,13 @@
+.logo {
+  font-size: var(--font-size-lg);
+  text-decoration: none;
+  color: var(--color-dark);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: -6px;
+  transition: .2s;
+
+  &:hover {
+    color: var(--color-brand);
+  }
+}
