@@ -97,7 +97,8 @@ aside.primary {
   --color-body: #444;
   --color-accent: #00AAB5;
   --color-brand: #007880;
-  --color-white: #fff; }
+  --color-white: #fff;
+  --color-highlight: #fafafa; }
 
 ::selection {
   color: var(--color-brand);
@@ -122,7 +123,7 @@ aside.primary {
   --line-height-lg: 2;
   --line-height-md: 1.5;
   --line-height-sm: 1.4;
-  --line-height-xs: 1; }
+  --line-height-xs: 1.2; }
   @media (min-width: 48em) {
     :root {
       --font-size-xl: 4.5rem;
@@ -261,6 +262,14 @@ p > code {
   font-size: 93%;
   padding: 4px; }
 
+.blockquote {
+  padding: calc(var(--space) *16);
+  font-size: var(--font-size-sm); }
+
+.quote {
+  margin-bottom: calc(var(--space) *8);
+  background-color: var(--color-highlight); }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -274,6 +283,16 @@ p > code {
 .hero {
   margin-top: calc(var(--space) *8);
   margin-bottom: calc(var(--space) *8); }
+
+.text-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px; }
+
+.text-container-wide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; }
 
 header,
 footer {
@@ -366,6 +385,9 @@ nav {
   list-style-type: none; }
   .offscreen-nav-links li a {
     color: #fff; }
+
+.page-content p + p {
+  margin-top: calc(var(--space) *4); }
 
 .Button {
   border: none;

@@ -16,3 +16,14 @@
   margin-bottom: calc(var(--space) *8);
 }
 
+.text-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.text-container-wide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}

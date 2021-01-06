@@ -7,5 +7,7 @@
       <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
     {{ end }}
   </section>
-  {{ .Content }}
+  <div class="text-container page-content">
+    {{ .Content }}
+  </div>
 {{ end }}

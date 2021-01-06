@@ -1,0 +1,8 @@
+.blockquote {
+  padding: calc(var(--space) *16);
+  font-size: var(--font-size-sm);
+}
+.quote {
+  margin-bottom: calc(var(--space) *8);
+  background-color: var(--color-highlight);
+}
