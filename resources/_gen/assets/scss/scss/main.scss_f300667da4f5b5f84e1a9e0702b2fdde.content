@@ -97,7 +97,8 @@ aside.primary {
   --color-body: #444;
   --color-accent: #00AAB5;
   --color-brand: #007880;
-  --color-white: #fff; }
+  --color-white: #fff;
+  --color-highlight: #fafafa; }
 
 ::selection {
   color: var(--color-brand);
@@ -261,6 +262,14 @@ p > code {
   font-size: 93%;
   padding: 4px; }
 
+.blockquote {
+  padding: calc(var(--space) *16);
+  font-size: var(--font-size-sm); }
+
+.quote {
+  margin-bottom: calc(var(--space) *8);
+  background-color: var(--color-highlight); }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -279,6 +288,11 @@ p > code {
   margin-left: auto;
   margin-right: auto;
   max-width: 700px; }
+
+.text-container-wide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; }
 
 header,
 footer {

@@ -26,4 +26,3 @@ blocks:
     description: Regain your physical strength.
     link: /services/post-partum-training/
 ---
-This is the homepage

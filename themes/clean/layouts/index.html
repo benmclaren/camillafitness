@@ -12,17 +12,22 @@
     <div class="aspect-ratio-wide">
       <img 
       sizes="(min-width: 30em) 30em, 100vw" 
-      srcset ="https://res.cloudinary.com/harrycresswell/image/upload/w_256,q_100/{{ .Params.image }} 256w,
-              https://res.cloudinary.com/harrycresswell/image/upload/w_512,q_100/{{ .Params.image }} 512w,
-              https://res.cloudinary.com/harrycresswell/image/upload/w_768,q_100/{{ .Params.image }} 768w,
-              https://res.cloudinary.com/harrycresswell/image/upload/w_1024,q_100/{{ .Params.image }} 1024w,
-              https://res.cloudinary.com/harrycresswell/image/upload/w_1280,q_100/{{ .Params.image }} 1280w"
-      src="  https://res.cloudinary.com/harrycresswell/image/upload/w_auto,q_100/{{ .Params.image }}"
-      alt />
+      srcset ="https://res.cloudinary.com/harrycresswell/image/upload/f_auto,w_256,q_auto:best/{{ .Params.image }} 256w,
+              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,w_512,q_auto:best/{{ .Params.image }} 512w,
+              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,w_768,q_auto:best/{{ .Params.image }} 768w,
+              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,w_1024,q_auto:best/{{ .Params.image }} 1024w,
+              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,w_1280,q_auto:best/{{ .Params.image }} 1280w"
+      src="  https://res.cloudinary.com/harrycresswell/image/upload/{{ .Params.image }}"
+      alt="image of Camilla" />
     </div>
   </figure>
 
-  {{ .Params.insert }}
+  <section class="quote">
+    <blockquote class="text-center text-container-wide blockquote">
+      {{ .Params.insert }}
+    </blockquote>
+  </section>
+
 
   {{ range .Params.blocks }}
     {{ if eq .component "service"  }}
