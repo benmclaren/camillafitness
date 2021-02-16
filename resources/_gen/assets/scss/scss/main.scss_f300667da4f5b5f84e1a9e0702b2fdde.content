@@ -98,7 +98,8 @@ aside.primary {
   --color-accent: #00AAB5;
   --color-brand: #007880;
   --color-white: #fff;
-  --color-highlight: #fafafa; }
+  --color-highlight: #fafafa;
+  --color-aqua: #007880; }
 
 ::selection {
   color: var(--color-brand);
@@ -262,6 +263,14 @@ p > code {
   font-size: 93%;
   padding: 4px; }
 
+#aqua {
+  border: 2px dashed var(--color-aqua); }
+
+.badge {
+  background-color: var(--color-dark);
+  padding: calc(1rem);
+  border-radius: 24px; }
+
 .blockquote {
   padding: calc(var(--space) *16);
   font-size: var(--font-size-sm); }
@@ -420,7 +429,7 @@ nav {
 
 .service-container {
   background-color: white;
-  border: 1px dashed var(--color-dark);
+  border: 2px dashed var(--color-dark);
   padding: calc(var(--space) *4);
   align-self: center; }
   .service-container p {
