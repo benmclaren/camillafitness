@@ -8,6 +8,8 @@
     {{ end }}  
   </section>
   
+  <section class="pricing-container container-wide">
+
   {{ range .Params.blocks }}
     {{ if eq .component "box"  }}
       {{ partial "blocks/box" (dict "Params" .) }}
@@ -15,4 +17,5 @@
       {{ partial "blocks/service" (dict "Params" .) }}
     {{ end }}
   {{ end }}
+  </section>
 {{ end }}
