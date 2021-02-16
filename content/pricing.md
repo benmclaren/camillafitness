@@ -40,8 +40,8 @@ blocks:
     badge: false
     badge_text: "£12.5%" 
     width: half
-  - component: service
-    title: 1-1 Personal Training
-    description: I offer one to one personal training sessions tailored to your personal fitness goals.
-    link: /services/personal-training/
+  # - component: service
+  #   title: 1-1 Personal Training
+  #   description: I offer one to one personal training sessions tailored to your personal fitness goals.
+  #   link: /services/personal-training/
 ---

@@ -1,5 +1,9 @@
-<div>
-  <h3>{{ .Params.title }}</h3>
-  <h4>{{ .Params.description }}</h4>
-  <a href="{{ .Params.link }}">Find our more</a>
-</div>
+  <div class="service-section container-wide">
+    <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
+    <div class="service-container text-center">
+      <h3 class="service-title">{{ .Params.title }}</h3>
+      <p>{{ .Params.description }}</p>
+      <a href="{{ .Params.link }}">Find out more</a>
+    </div>
+  </div>
+
