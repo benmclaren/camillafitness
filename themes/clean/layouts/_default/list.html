@@ -7,16 +7,13 @@
       <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
     {{ end }}
   </section>
-  
-  {{ range .Pages }}
-    <article>
-      <h3>
-        <span>{{ .Title }}</span>
-        <!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
-      </h3>
-      <p>{{ .Params.description }}</p>
-      <a href="{{ .Permalink }}">Find out more</a>
-    </article>
-    <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}" style="width:500px;">
-  {{ end }}
+
+
+
 {{ end }}
+
+
+
+  
+
+

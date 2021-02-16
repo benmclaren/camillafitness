@@ -10,4 +10,16 @@
   <div class="text-container page-content">
     {{ .Content }}
   </div>
+
+
+
+
+  {{ range .Params.blocks }}
+  {{ if eq .component "service"  }}
+  <div class= "block-container">
+    {{ partial "blocks/service" (dict "Params" .) }}
+  </div>
+  {{ end }}
+{{ end }}
+
 {{ end }}
