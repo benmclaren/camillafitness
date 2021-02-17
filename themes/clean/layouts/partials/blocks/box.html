@@ -3,12 +3,13 @@
           {{- else if eq .Params.color "aqua" -}} 
             aqua  
           {{- end -}}" class="service-section service-container text-center">
+          {{ $badge_text := .Params.badge_text }}
+          {{- if eq .Params.badge true -}}
+            <span class="badge">{{- $badge_text -}}</span>
+          {{- end -}}
   <h3 class="service-title">{{ .Params.title }}</h3>
   <h4>{{ .Params.description }}</h4>
-  {{ $badge_text := .Params.badge_text }}
-  {{- if eq .Params.badge true -}}
-    <span class="badge">{{- $badge_text -}}</span>
-  {{- end -}}
+
 </div>
 
 
