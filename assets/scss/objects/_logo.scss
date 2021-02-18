@@ -11,3 +11,21 @@
     color: var(--color-brand);
   }
 }
+
+.footer-logo {
+  text-decoration: none;
+  border: 3px dashed var(--color-aqua);
+  padding: calc(var(--space) * 3);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-aqua);
+
+  &:hover {
+    color: var(--color-dark);
+    border: 3px dashed var(--color-dark);
+  }
+}
+
+svg:hover {
+  fill: linear-gradient(#405de6, #5851db, #833ab4);
+}

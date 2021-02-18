@@ -340,6 +340,11 @@ nav {
 .navbar-desktop-links {
   display: none; }
 
+footer {
+  flex-shrink: 0;
+  padding-top: calc(var(--space) * 8);
+  padding-bottom: calc(var(--space) * 8); }
+
 .burger div {
   width: 25px;
   height: 3px;
@@ -519,6 +524,20 @@ nav {
   .logo:hover {
     color: var(--color-brand); }
 
+.footer-logo {
+  text-decoration: none;
+  border: 3px dashed var(--color-aqua);
+  padding: calc(var(--space) * 3);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-aqua); }
+  .footer-logo:hover {
+    color: var(--color-dark);
+    border: 3px dashed var(--color-dark); }
+
+svg:hover {
+  fill: linear-gradient(#405de6, #5851db, #833ab4); }
+
 /*------------------------------------*\
     #COMPONENTS: RATIO
 \*------------------------------------*/
@@ -611,6 +630,19 @@ nav {
   font-size: var(--font-size-sm);
   line-height: var(--line-height-lg);
   font-weight: 100; }
+
+.circle {
+  border-radius: 50%; }
+
+.mt2 {
+  margin-top: calc(var(--space) * 2); }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
 
 * {
   margin: 0;
