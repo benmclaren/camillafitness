@@ -6,16 +6,18 @@
 #aqua {
   position: relative;
 
+  .badge {
+    background-color: var(--color-dark);
+    padding: calc(1rem);
+    border-radius: 24px;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: var(--color-white);
+  }
 }
 
-.badge {
-  background-color: var(--color-dark);
-  padding: calc(1rem);
-  border-radius: 24px;
-  position: absolute;
-  top: -20%;
-  left: 50%;
-  transform: translate(-50%, 0);
+#aqua .badge {
+  background-color: var(--color-aqua);
 }
-
-

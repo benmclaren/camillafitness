@@ -26,4 +26,11 @@
 
 .service-title {
   font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg);
+}
+
+.service-subtitle{
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg);
+  font-weight: 100;
 }
