@@ -634,8 +634,15 @@ svg:hover {
 .circle {
   border-radius: 50%; }
 
+.author {
+  font-weight: 700; }
+
 .mt2 {
   margin-top: calc(var(--space) * 2); }
+
+.mt4 {
+  margin-top: calc(var(--space) * 2);
+  margin-bottom: calc(1rem*2); }
 
 body {
   display: flex;

@@ -16,6 +16,7 @@ make you put that extra bit of effort in when you feel as though you can’t go 
 further, will increase your chances of reaching your goals quickly. No one works as hard on
 their own as they do when there is someone standing beside them encouraging and pushing
 them.
+
 Camilla has an enthusiasm for life, her positive outlook is infectious and you will leave your
 sessions with her feeling invigorated, upbeat and ready to take on what the world throws at
 you!
