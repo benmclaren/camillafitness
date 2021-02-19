@@ -10,35 +10,35 @@ blocks:
     description: £40 per hour session
     color: false
     badge: false
-    badge_text: "£12.5%" 
+    badge_text: "12.5% off" 
     width: full
   - component: box
     title: 1-1 Personal Training (4 sessions)
     description: £140
     color: black 
     badge: true
-    badge_text: "£12.5%" 
+    badge_text: "12.5% off" 
     width: half
   - component: box
     title: 1-1 Personal Training (8 sessions)
     description: £280
     color: aqua
     badge: true
-    badge_text: "£12.5%" 
+    badge_text: "12.5% off" 
     width: half
   - component: box
     title: HIIT group classes
     description: £7.50 per class per person
     color: black 
     badge: false
-    badge_text: "£12.5%" 
+    badge_text: "12.5% off" 
     width: half
   - component: box
     title: 2-1 Train with a partner
     description: £50 per session/£25 per person
     color: black 
     badge: false
-    badge_text: "£12.5%" 
+    badge_text: "12.5% off" 
     width: half
   # - component: service
   #   title: 1-1 Personal Training

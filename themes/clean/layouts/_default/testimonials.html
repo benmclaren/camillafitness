@@ -8,10 +8,10 @@
     {{ end }}
   </section>
 
-  <div class="text-container">
+  <div class="text-container text-center">
     {{ range .Site.Data.testimonials }}
-      <p>{{ .text }}</p>
-      <p>{{ .author }}</p>
+      <p class="mt2">{{ .text }}</p>
+      <p class="mt4 author">{{ .author }}</p>
     {{ end }}
   </div>
 

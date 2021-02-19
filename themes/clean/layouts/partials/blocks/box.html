@@ -1,20 +1,16 @@
-<div class="{{- if eq .Params.color "black" -}} 
-              black 
-            {{- else if eq .Params.color "aqua" -}} 
-              aqua 
-            {{- end -}}">
-  <h3>{{ .Params.title }}</h3>
-  <h4>{{ .Params.description }}</h4>
-  {{ $badge_text := .Params.badge_text }}
-  {{- if eq .Params.badge true -}}
-    {{- $badge_text -}}
-  {{- end -}}
+<div id=" {{- if eq .Params.color "black" -}} 
+            black  
+          {{- else if eq .Params.color "aqua" -}} 
+            aqua  
+          {{- end -}}" class="service-section service-container text-center">
+          {{ $badge_text := .Params.badge_text }}
+          {{- if eq .Params.badge true -}}
+            <span class="badge">{{- $badge_text -}}</span>
+          {{- end -}}
+  <h3 class="service-title">{{ .Params.title }}</h3>
+  <h4 class="service-subtitle">{{ .Params.description }}</h4>
+
 </div>
-
-
-
-
-
 
 
 

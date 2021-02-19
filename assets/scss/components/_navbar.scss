@@ -24,6 +24,13 @@ nav {
   display: none;
 }
 
+footer {
+  flex-shrink: 0;
+  padding-top: calc(var(--space) * 8);
+  padding-bottom: calc(var(--space) * 8);
+
+}
+
 .burger div {
   width: 25px;
   height: 3px;
