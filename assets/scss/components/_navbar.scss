@@ -28,7 +28,6 @@ footer {
   flex-shrink: 0;
   padding-top: calc(var(--space) * 8);
   padding-bottom: calc(var(--space) * 8);
-
 }
 
 .burger div {
@@ -78,6 +77,14 @@ footer {
 
     a {
       text-decoration: none;
+    }
+  }
+
+  .navbar-footer-links {
+    display: flex;
+    
+    li {
+      margin: 0 8px;
     }
   }
 
