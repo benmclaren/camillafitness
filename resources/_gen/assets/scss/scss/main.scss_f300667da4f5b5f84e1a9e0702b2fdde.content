@@ -309,6 +309,8 @@ p > code {
   margin-left: auto;
   margin-right: auto;
   max-width: 700px; }
+  .text-container ul {
+    margin-top: calc(var(--space) * 2); }
 
 .text-container-wide {
   margin-left: auto;
@@ -643,6 +645,12 @@ svg:hover {
 .mt4 {
   margin-top: calc(var(--space) * 2);
   margin-bottom: calc(1rem*2); }
+
+#qualifications,
+#philosophy,
+#approach {
+  margin-top: calc(var(--space) * 4);
+  margin-bottom: calc(var(--space) * 4); }
 
 body {
   display: flex;
