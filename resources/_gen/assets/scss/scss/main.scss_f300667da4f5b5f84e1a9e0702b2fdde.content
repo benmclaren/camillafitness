@@ -287,6 +287,10 @@ p > code {
   padding: calc(var(--space) *16);
   font-size: var(--font-size-sm); }
 
+@media (max-width: 720px) {
+  .blockquote {
+    padding: calc(var(--space) *8); } }
+
 .quote {
   margin-bottom: calc(var(--space) *8);
   background-color: var(--color-highlight); }
