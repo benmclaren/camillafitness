@@ -10,12 +10,12 @@
   
   <section class="pricing-container container-wide">
 
-  {{ range .Params.blocks }}
-    {{ if eq .component "box"  }}
-      {{ partial "blocks/box" (dict "Params" .) }}
-    {{ else if eq .component "service" }}
-      {{ partial "blocks/service" (dict "Params" .) }}
+    {{ range .Params.blocks }}
+      {{ if eq .component "box"  }}
+        {{ partial "blocks/box" (dict "Params" .) }}
+      {{ else if eq .component "service" }}
+        {{ partial "blocks/service" (dict "Params" .) }}
+      {{ end }}
     {{ end }}
-  {{ end }}
   </section>
 {{ end }}
