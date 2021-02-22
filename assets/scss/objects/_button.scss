@@ -25,6 +25,8 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
   text-rendering: optimizeLegibility;
+  position: absolute;
+  right: calc(var(--space) *4)
 }
 
 .Button--primary:hover,

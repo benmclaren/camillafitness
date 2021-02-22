@@ -344,8 +344,12 @@ nav {
 .navbar-footer {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center; }
+
+.icon {
+  position: absolute;
+  right: calc(var(--space) *4); }
 
 .navbar-desktop-links {
   display: none; }
@@ -516,7 +520,9 @@ footer {
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  position: absolute;
+  right: calc(var(--space) *4); }
 
 .Button--primary:hover,
 .Button--primary:focus,
@@ -535,7 +541,9 @@ footer {
   font-family: var(--font-heading);
   font-weight: 700;
   letter-spacing: -3px;
-  transition: .2s; }
+  transition: .2s;
+  position: absolute;
+  left: calc(var(--space) *4); }
   .logo:hover {
     color: var(--color-brand); }
 
@@ -545,7 +553,9 @@ footer {
   padding: calc(var(--space) * 3);
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--color-aqua); }
+  color: var(--color-aqua);
+  position: absolute;
+  left: calc(var(--space) *4); }
   .footer-logo:hover {
     color: var(--color-dark);
     border: 3px dashed var(--color-dark); }

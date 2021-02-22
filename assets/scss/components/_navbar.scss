@@ -16,8 +16,13 @@ nav {
 .navbar-footer {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+.icon {
+  position: absolute;
+  right: calc(var(--space) *4);
 }
 
 .navbar-desktop-links {
