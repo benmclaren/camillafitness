@@ -24,6 +24,12 @@
   line-height: var(--line-height-xs);
 }
 
+@media(max-width: 900px) {
+  .page-subtitle {
+    font-size: 48px;;
+  }
+}
+
 .service-title {
   font-size: var(--font-size-sm);
   line-height: var(--line-height-lg);

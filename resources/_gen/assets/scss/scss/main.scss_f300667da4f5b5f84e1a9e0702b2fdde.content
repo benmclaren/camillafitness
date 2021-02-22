@@ -209,6 +209,10 @@ body {
   font-family: var(--font-default);
   font-size: var(--font-size-default); }
 
+@media (min-width: 900px) {
+  body {
+    font-size: 21px; } }
+
 h1,
 h2,
 h3,
@@ -651,6 +655,10 @@ svg:hover {
   font-size: var(--font-size-xxl);
   font-weight: 700;
   line-height: var(--line-height-xs); }
+
+@media (max-width: 900px) {
+  .page-subtitle {
+    font-size: 48px; } }
 
 .service-title {
   font-size: var(--font-size-sm);
