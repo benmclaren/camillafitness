@@ -344,12 +344,8 @@ nav {
 .navbar-footer {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; }
-
-.icon {
-  position: absolute;
-  right: calc(var(--space) *4); }
 
 .navbar-desktop-links {
   display: none; }
@@ -386,7 +382,7 @@ footer {
   border: none;
   background-color: transparent; }
 
-@media (min-width: 720px) {
+@media (min-width: 900px) {
   .navbar-desktop-links {
     display: flex;
     justify-content: space-between; }
@@ -401,7 +397,22 @@ footer {
     .navbar-footer-links li {
       margin: 0 8px; }
   .burger {
-    display: none; } }
+    display: none; }
+  .icon {
+    position: absolute;
+    right: calc(var(--space) *4); }
+  .logo {
+    position: absolute;
+    left: calc(var(--space) *4); }
+  .footer-logo {
+    position: absolute;
+    left: calc(var(--space) *4); }
+  .Button--primary {
+    position: absolute;
+    right: calc(var(--space) *4); }
+  .navbar-header,
+  .navbar-footer {
+    justify-content: center; } }
 
 .offscreen-nav {
   position: fixed;
@@ -520,9 +531,7 @@ footer {
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
-  text-rendering: optimizeLegibility;
-  position: absolute;
-  right: calc(var(--space) *4); }
+  text-rendering: optimizeLegibility; }
 
 .Button--primary:hover,
 .Button--primary:focus,
@@ -541,9 +550,7 @@ footer {
   font-family: var(--font-heading);
   font-weight: 700;
   letter-spacing: -3px;
-  transition: .2s;
-  position: absolute;
-  left: calc(var(--space) *4); }
+  transition: .2s; }
   .logo:hover {
     color: var(--color-brand); }
 
@@ -553,9 +560,7 @@ footer {
   padding: calc(var(--space) * 3);
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--color-aqua);
-  position: absolute;
-  left: calc(var(--space) *4); }
+  color: var(--color-aqua); }
   .footer-logo:hover {
     color: var(--color-dark);
     border: 3px dashed var(--color-dark); }

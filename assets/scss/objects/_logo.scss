@@ -6,8 +6,7 @@
   font-weight: 700;
   letter-spacing: -3px;
   transition: .2s;
-  position: absolute;
-  left: calc(var(--space) *4);
+
 
   &:hover {
     color: var(--color-brand);
@@ -21,8 +20,7 @@
   font-family: var(--font-heading);
   font-weight: 700;
   color: var(--color-aqua);
-  position: absolute;
-  left: calc(var(--space) *4);
+
 
   &:hover {
     color: var(--color-dark);
