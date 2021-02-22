@@ -5,7 +5,7 @@ draft: false
 slug: "personal-training"
 subtitle: "Achieve your goals"
 description: "I offer one to one personal training sessions tailored to your personal fitness goals."
-featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1607006817/camilla-cresswell-fitness-personal-training.jpg"
+featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/train-together.jpg"
 featured_alt: "Featured image of Camilla"
 ---
 Camilla will create a bespoke programme taking into consideration your current level of

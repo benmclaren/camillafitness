@@ -5,7 +5,7 @@ draft: false
 slug: "train-together"
 subtitle: "Train with your partner, a family member or friend."
 description: "Train with your partner, a family member or friend."
-featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1607006817/camilla-cresswell-fitness-personal-training.jpg"
+featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/train-together.jpg"
 featured_alt: "Featured image of Camilla"
 ---
 

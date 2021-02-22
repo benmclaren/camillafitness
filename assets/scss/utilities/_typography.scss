@@ -24,11 +24,6 @@
   line-height: var(--line-height-xs);
 }
 
-@media(max-width: 900px) {
-  .page-subtitle {
-    font-size: 48px;;
-  }
-}
 
 .service-title {
   font-size: var(--font-size-sm);
@@ -39,6 +34,21 @@
   font-size: var(--font-size-sm);
   line-height: var(--line-height-lg);
   font-weight: 100;
+}
+
+@media(max-width: 900px) {
+  .page-subtitle {
+    font-size: 48px;
+  }
+
+  .service-title {
+    font-size: 21px;
+  }
+
+  .service-subtitle {
+    font-size: 18px;
+    letter-spacing: -1px;
+  }
 }
 
 .circle {
