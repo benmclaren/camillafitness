@@ -11,7 +11,7 @@
   max-width: 1500px;
 }
 
-.hero {
+.hero  {
   margin-top: calc(var(--space) *8);
   margin-bottom: calc(var(--space) *8);
 }
@@ -28,6 +28,11 @@
 @media (max-width: 720px) {
   .text-container {
     padding: calc(var(--space) *4);
+  }
+
+  .hero {
+    margin-top: calc(var(--space) *4);
+    margin-bottom: 0;
   }
 }
 
