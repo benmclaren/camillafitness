@@ -11,3 +11,5 @@ featured_alt: "Featured image of Camilla"
 It can be fun and motivating to train with a friend, perhaps a little less daunting to start with
 if you’re new to Personal Training. I’m happy to train 2-1 if you would like to. Please contact
 me to discuss further.
+
+{{< button link="/par-q" buttontext="Start Par-q questionnaire" >}}

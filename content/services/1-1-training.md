@@ -22,3 +22,6 @@ My positive outlook and enthusiasm for life is infectious and you will leave
 your sessions feeling invigorated, upbeat and ready to take on what the
 world throws at you, I want you to feel positive, upbeat and confident within
 yourself!
+
+{{< button link="/par-q" buttontext="Start Par-q questionnaire" >}}
+

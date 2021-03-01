@@ -11,3 +11,5 @@ featured_alt: "Featured image of Camilla"
 I take intimate boutique style fitness classes 8-10 people in Shipston-on-Stour, they’re 30-40
 minutes, cardio vascular and strength based, open to all levels of fitness. A great way to
 increase your fitness levels, or even to top up on your 1-1 sessions with me.
+
+
