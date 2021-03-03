@@ -515,6 +515,10 @@ footer {
       grid-column-end: 3;
       grid-row-start: 1; } }
 
+.ButtonWrap {
+  text-align: center;
+  margin-top: calc(var(--space) * 4); }
+
 .Button {
   border: none;
   font-family: var(--font-mono);
@@ -705,7 +709,7 @@ svg:hover {
   margin-bottom: calc(1rem*2); }
 
 #qualifications,
-#philosophy,
+#philosophy--motivation,
 #approach {
   margin-top: calc(var(--space) * 4);
   margin-bottom: calc(var(--space) * 4); }
