@@ -5,6 +5,7 @@ theme = "clean"
 
 [permalinks]
   page = "/:title/"
+  form = "/:slug/"
 
 [[menu.nav]]
   name = "About"
