@@ -25,12 +25,26 @@
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
   text-rendering: optimizeLegibility;
+}
 
+.Button--secondary {
+  background: var(--color-dark);
+  color: var(--color-white) !important;
+  padding: 14px 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  text-rendering: optimizeLegibility;
 }
 
 .Button--primary:hover,
 .Button--primary:focus,
 .Button--primary:active,
-.Button--primary.is-pressed {
+.Button--primary.is-pressed,
+.Button--secondary:hover,
+.Button--secondary:focus,
+.Button--secondary:active,
+.Button--secondary.is-pressed {
   background-color: var(--color-brand);
 }

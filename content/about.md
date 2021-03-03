@@ -39,4 +39,4 @@ I thrive on being outdoors, I am more than happy to train you outside of a gym e
  
 We’ll start with a consultation where we will discuss your goals, current fitness levels and nutrition. I will then design a bespoke programme to help you on your fitness journey.
 
-We all need a shake up in our fitness routine to make change happen, I am here to do just that for you!.
+We all need a shake up in our fitness routine to make change happen, I am here to do just that FOR YOU!.

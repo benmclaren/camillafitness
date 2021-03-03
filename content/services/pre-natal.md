@@ -8,16 +8,21 @@ description: "Pregnancy is an exciting time, however for many women the physiolo
 featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1607006817/camilla-cresswell-fitness-personal-training.jpg"
 featured_alt: "Featured image of Camilla"
 ---
-Pregnancy is an exciting time, however for many women the physiological, psychological
-and biomechanical changes occur during pre and postnatal periods can cause anxiety. 
-Physical activity can help keep expectant mothers feeling physically and mentally strong. I
-am able to offer safe exercise to expectant mothers who wish to maintain their fitness
-throughout their pregnancy and can offer exceptional postpartum training after birth.
+Pregnancy is an exciting time, however for many women the
+physiological, psychological and biomechanical changes that
+occur during pre and postnatal periods can cause anxiety. 
 
-I understand the considerations and modifications that must be applied when designing a
-programme of physical activity for each individual trimester. Taking into account your
-energy levels, previous levels of fitness and any pregnancy related issues you may have.
-I can also offer nutritional advice as well as dietary and supplementation needs.
+Physical activity can help keep expectant mothers feeling
+physically and mentally strong. Camilla is able to offer safe
+exercise to mums to be who wish to maintain their fitness
+throughout their pregnancy and can offer exceptional
+postpartum training after the birth. She understands the
+considerations and modifications that must be applied when
+designing a programme of physical activity for each individual
+trimester. This takes into account energy levels, previous levels
+of fitness and any pregnancy related health issues you may
+have. She can also offer nutritional advice as well as dietary
+and supplementation needs.
 
 {{< button link="/pre-natal-par-q" buttontext="Start Pre-natal Questionnaire" >}}
 
