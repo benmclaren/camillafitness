@@ -22,4 +22,4 @@ listen to any concerns you may have. Regaining your physical
 strength will help you through the sleepless nights and give
 YOU something to look forward to!
 
-{{< button link="/post-natal-par-q" buttontext="Start Post-natal questionnaire" >}}
+{{< button link="/post-partum-par-q" buttontext="Start Post-Partum questionnaire" >}}
