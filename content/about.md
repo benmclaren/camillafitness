@@ -4,21 +4,13 @@ date: 2020-12-01T15:13:58Z
 draft: false
 subtitle: "Finding the inner strength, motivation and power you need to face life’s challenges."
 ---
-I have always been a lover of the outdoors and being active. An obsession with horses is where it all started, followed by being selected, at school, to train with my then idol, Sally Gunnell, at Crystal Palace athletics track, over hurdles. Yes- I LOVE to jump! Camilla Cresswell PT was born out of my sporting childhood. Later into my teens I was able to finally join a gym where I became a ‘spin’ fanatic- especially on colder darker nights- participating in back to back classes in what became my 2nd home at LA Fitness in South London. In 2003, I completed my Level 2 Fitness Instructor qualification. 
+I have always been a lover of the outdoors and being active. My obsession with horses is where it began, followed by being selected, at school, to train with my then idol, Sally Gunnell, at Crystal Palace athletics track, over hurdles. Yes- I LOVE to jump! Camilla Cresswell PT was born out of my sporting childhood. In my teens I was able to join a gym where I became a ‘spin’ fanatic - especially on colder darker nights- participating in back to back classes in what became my 2nd home at LA Fitness. In 2003, I completed my Level 2 Fitness Instructor qualification.
 
-Post having had a baby in 2015, and facing the physical and mental challenges that
-followed I threw myself into exercising racehorses, feeling a new-found strength by
-being physically active everyday and throwing myself into something I loved was
-completely empowering. It really hit home and was a reminder how closely linked
-physical and mental health are. Loving people and fitness, it was a no brainer I had
-to follow my heart to help and inspire others.
+Post having a baby in 2015, and facing the physical and mental challenges that followed, I threw myself into exercising racehorses, feeling a new-found strength by being physically active everyday. Doing something I really loved was completely empowering and it hit home how closely linked are physical and mental health. Loving people, fitness and being active, it was a no brainer I had to follow my heart to help and inspire others.
 
-I am now a qualified Level 3 Personal Trainer, and I am passionate about helping
-you find the inner strength, motivation and power you need to face life’s challenges.
-I have the understanding &amp; knowledge for athletes who need a change in
-programming, and empathy for those stuck working at a desk who need motivation,
-enthusiasm and positive energy. I can provide inspiration and change to your fitness
-programming to help you achieve your goals.
+I am now a qualified Level 3 Personal Trainer, and passionate about helping you find the inner strength, motivation and power needed to face life’s challenges.
+
+I have understanding & knowledge for athletes who need a change in programming, and empathy for those stuck working at a desk who need motivation, enthusiasm and positive energy. I can provide inspiration and changes to your fitness programming to help you achieve your goals.
 
 ## Qualifications
 - Certified Level 3 Personal Trainer

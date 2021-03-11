@@ -221,8 +221,7 @@ h5,
 h6 {
   color: var(--color-dark);
   font-family: var(--font-heading);
-  font-weight: 500;
-  hyphens: auto; }
+  font-weight: 500; }
 
 h2,
 h3,
