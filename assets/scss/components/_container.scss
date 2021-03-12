@@ -36,6 +36,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .text-container {
+    padding: calc(var(--space) *2);
+  }
+}
+
 .text-container-wide {
   margin-left: auto;
   margin-right: auto;

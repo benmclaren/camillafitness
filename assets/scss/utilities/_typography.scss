@@ -51,6 +51,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .page-subtitle {
+    font-size: 32px;
+  }
+}
+
 .circle {
   border-radius: 50%;
 }

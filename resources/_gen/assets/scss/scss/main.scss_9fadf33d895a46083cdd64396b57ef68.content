@@ -326,6 +326,10 @@ p > code {
     margin-top: calc(var(--space) *4);
     margin-bottom: 0; } }
 
+@media (max-width: 500px) {
+  .text-container {
+    padding: 0; } }
+
 .text-container-wide {
   margin-left: auto;
   margin-right: auto;
@@ -389,7 +393,8 @@ footer {
   background-color: transparent; }
 
 .toggle {
-  position: sticky; }
+  position: fixed;
+  right: 32px; }
 
 @media (min-width: 900px) {
   .navbar-desktop-links {
@@ -482,6 +487,11 @@ footer {
 .service-section {
   margin-top: calc(var(--space) *4);
   margin-bottom: calc(var(--space) *8); }
+
+@media (max-width: 500px) {
+  .service-section {
+    margin-top: 0px;
+    margin-bottom: 0px; } }
 
 .service-container {
   background-color: white;
@@ -696,6 +706,10 @@ svg:hover {
   .service-subtitle {
     font-size: 18px;
     letter-spacing: -1px; } }
+
+@media (max-width: 500px) {
+  .page-subtitle {
+    font-size: 32px; } }
 
 .circle {
   border-radius: 50%; }

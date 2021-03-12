@@ -326,6 +326,10 @@ p > code {
     margin-top: calc(var(--space) *4);
     margin-bottom: 0; } }
 
+@media (max-width: 500px) {
+  .text-container {
+    padding: calc(var(--space) *2); } }
+
 .text-container-wide {
   margin-left: auto;
   margin-right: auto;
@@ -702,6 +706,10 @@ svg:hover {
   .service-subtitle {
     font-size: 18px;
     letter-spacing: -1px; } }
+
+@media (max-width: 500px) {
+  .page-subtitle {
+    font-size: 32px; } }
 
 .circle {
   border-radius: 50%; }
