@@ -23,11 +23,11 @@ blocks:
   - component: service
     title: Pre Natal Training
     description: Safe exercises and nutritional advice.
-    featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1607006817/camilla-cresswell-fitness-personal-training.jpg"
+    featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1615476436/camillafitness/pregnant-woman-doing-exercise-with-dumbbells-at-K4VHK6E-1.jpg"
     link: /services/pre-natal-training/
   - component: service
     title: Post Partum Training
     description: Regain your physical strength.
-    featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1607006817/camilla-cresswell-fitness-personal-training.jpg"
+    featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1615486380/camillafitness/yoga-bridge.jpg"
     link: /services/post-partum-training/
 ---

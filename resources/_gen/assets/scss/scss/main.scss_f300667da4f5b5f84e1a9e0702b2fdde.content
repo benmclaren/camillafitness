@@ -388,6 +388,10 @@ footer {
   border: none;
   background-color: transparent; }
 
+.toggle {
+  position: fixed;
+  right: 32px; }
+
 @media (min-width: 900px) {
   .navbar-desktop-links {
     display: flex;
@@ -687,7 +691,7 @@ svg:hover {
 
 @media (max-width: 900px) {
   .page-subtitle {
-    font-size: 48px; }
+    font-size: 40px; }
   .service-title {
     font-size: 21px; }
   .service-subtitle {

@@ -9,8 +9,8 @@ min_version = "0.59.1"
 
 # If the theme has multiple authors
 authors = [
-  {name = "Name of author", homepage = "Website of author"},
-  {name = "Name of author", homepage = "Website of author"}
+  {name = "Ben McLaren", homepage = "https://benmclaren.xyz/"},
+  {name = "Harry Creswell", homepage = "https://harrycresswell.com/"}
 ]
 
 # If the theme has a single author

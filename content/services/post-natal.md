@@ -5,7 +5,7 @@ draft: false
 slug: "post-partum-training"
 subtitle: "Regain your physical strength"
 description: "I can create a bespoke programme taking into consideration your unique birthing experience, pelvic floor weaknesses, diastasis recti (separation of abdominal muscles) and postural imbalances."
-featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1607006817/camilla-cresswell-fitness-personal-training.jpg"
+featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1615486380/camillafitness/yoga-bridge.jpg"
 featured_alt: "Featured image of Camilla"
 ---
 Camilla can create a bespoke programme taking into
