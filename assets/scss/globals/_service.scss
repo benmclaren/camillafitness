@@ -3,6 +3,13 @@
   margin-bottom: calc(var(--space) *8);
 }
 
+@media (max-width: 500px) {
+  .service-section {
+    margin-top: 0px;
+    margin-bottom: 0px;;
+  }
+}
+
 .service-container {
   background-color: white;
   border: 2px dashed var(--color-dark);
