@@ -6,7 +6,7 @@ subtitle: "Finding the inner strength, motivation and power you need to face lif
 ---
 I have always been a lover of the outdoors and being active. My passion for horses is where it began, followed by being selected, at school, to train with my then idol, Sally Gunnell, at Crystal Palace athletics track, over hurdles. Yes- I LOVE to jump! Camilla Cresswell PT was born out of my sporting childhood. In my teens I was able to join a gym where I became a ‘spin’ fanatic - especially on colder darker nights- participating in back to back classes in what became my 2nd home at LA Fitness. In 2003, I completed my Level 2 Fitness Instructor qualification.
 
-Post having a baby in 2015, and facing the physical and mental challenges that followed, I threw myself into exercising racehorses, feeling a new-found strength by being physically active everyday. Doing something I really loved was completely empowering and it hit home how closely linked are physical and mental health. Loving people, fitness and being active, it was a no brainer I had to follow my heart to help and inspire others.
+Post having a baby in 2015, facing the physical and mental challenges that followed becoming a mother I developed new found strength from exercising racehorses on a regular basis. Doing something I loved was completely empowering and it hit home how closely linked are physical and mental health. Loving people, fitness and being active, it was a no brainer I had to follow my heart to help and inspire others.
 
 I am now a qualified Level 3 Personal Trainer, and passionate about helping you find the inner strength, motivation and power needed to face life’s challenges.
 

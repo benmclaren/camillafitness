@@ -328,7 +328,7 @@ p > code {
 
 @media (max-width: 500px) {
   .text-container {
-    padding: 0; } }
+    padding: calc(var(--space) *2); } }
 
 .text-container-wide {
   margin-left: auto;
