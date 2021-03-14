@@ -15,6 +15,7 @@ I have understanding & knowledge for athletes who need a change in programming, 
 ## Qualifications
 - Certified Level 3 Personal Trainer
 - Certified Pre and Post Natal Personal Trainer
+- A member of The Chartered Institute for the Management of Sport and Physical Activity
 
 ## Philosophy & Motivation
 Fitness is essential for emotional and physical stamina and for overall health and

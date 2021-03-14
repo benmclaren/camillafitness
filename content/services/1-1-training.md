@@ -18,6 +18,8 @@ your chances of reaching goals quickly. No one works as hard alone as
 they do when there is someone standing beside them encouraging and
 pushing ahead.
 
+‘If you're struggling to find motivation, lack confidence with exercise, or have no idea where to start, personal training is definitely for you.’
+
 Camilla has enthusiasm for life. Her positive outlook is infectious and you
 will leave your sessions feeling invigorated, upbeat and ready to take on
 what the world throws at you!
