@@ -9,6 +9,8 @@ sections:
   label: Form
   create: all
   match: "**/*"
+- type: heading
+  label: Content
 - type: directory
   path: content/services
   label: Services
