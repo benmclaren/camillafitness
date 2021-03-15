@@ -1,0 +1,41 @@
+---
+label: advanced
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: layout
+  label: layout
+- type: field_group_list
+  name: blocks
+  label: blocks
+  fields:
+  - type: text
+    name: component
+    label: component
+  - type: datetime
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: boolean
+    name: color
+    label: color
+  - type: boolean
+    name: badge
+    label: badge
+  - type: text
+    name: badge_text
+    label: badge_text
+  - type: text
+    name: width
+    label: width
