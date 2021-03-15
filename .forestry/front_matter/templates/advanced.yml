@@ -14,30 +14,13 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: field_group_list
-  name: blocks
-  label: blocks
-  fields:
-  - type: text
-    name: component
-    label: component
-  - type: datetime
-    name: title
-    label: title
-  - type: text
-    name: description
-    label: description
-  - type: boolean
-    name: color
-    label: color
-  - type: boolean
-    name: badge
-    label: badge
-  - type: text
-    name: badge_text
-    label: badge_text
-  - type: text
-    name: width
-    label: width
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - box
+  config:
+    min: 
+    max: 
 pages:
 - content/pricing.md
