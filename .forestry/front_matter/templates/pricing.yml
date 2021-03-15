@@ -22,6 +22,7 @@ fields:
   - type: text
     name: component
     label: component
+    hidden: true
   - type: datetime
     name: title
     label: title
