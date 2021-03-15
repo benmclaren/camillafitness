@@ -30,8 +30,8 @@ fields:
     name: description
     label: description
   - type: boolean
-    name: color
-    label: color
+    name: colour
+    label: Colour
   - type: boolean
     name: badge
     label: badge
