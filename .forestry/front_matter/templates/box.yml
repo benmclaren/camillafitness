@@ -1,4 +1,59 @@
 ---
 label: box
 hide_body: true
-fields: []
+fields:
+- name: component
+  type: text
+  config:
+    required: false
+  label: component
+  default: box
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
+- name: color
+  type: boolean
+  label: Color
+- name: badge
+  type: boolean
+  label: Badge
+- name: badge_text
+  type: text
+  config:
+    required: false
+  label: Badge text
+  showOnly:
+    field: badge
+    value: true
+- name: width
+  type: select
+  default: full
+  config:
+    required: false
+    options:
+    - half
+    - full
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Width
