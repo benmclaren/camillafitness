@@ -39,3 +39,5 @@ fields:
   - type: text
     name: width
     label: width
+pages:
+- content/pricing.md
