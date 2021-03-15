@@ -4,13 +4,18 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: content/form
   label: Form
   create: all
   match: "**/*"
-- type: heading
-  label: Content
+- type: directory
+  path: data/testimonials.yaml
+  label: Testimonials
+  create: documents
+  match: "**/*"
 - type: directory
   path: content/services
   label: Services
