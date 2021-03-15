@@ -1,12 +1,14 @@
 ---
-title: "Pre Natal"
-date: 2020-12-03T14:39:21Z
-draft: false
-slug: "pre-natal-training"
-subtitle: "Safe exercises and nutritional advice"
-description: "Pregnancy is an exciting time, however for many women the physiological, psychological and biomechanical changes occur during pre and postnatal periods can cause anxiety."
-featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1615476436/camillafitness/pregnant-woman-doing-exercise-with-dumbbells-at-K4VHK6E-1.jpg"
-featured_alt: "Featured image of Camilla"
+title: Pre Natal
+date: 2020-12-03T14:39:21.000+00:00
+slug: pre-natal-training
+subtitle: Safe exercises and nutritional advice
+description: Pregnancy is an exciting time, however for many women the physiological,
+  psychological and biomechanical changes occur during pre and postnatal periods can
+  cause anxiety.
+featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1615476436/camillafitness/pregnant-woman-doing-exercise-with-dumbbells-at-K4VHK6E-1.jpg
+featured_alt: Featured image of Camilla
+
 ---
 Pregnancy is an exciting time, however for many women the
 physiological, psychological and biomechanical changes that
@@ -25,4 +27,3 @@ have. She can also offer nutritional advice as well as dietary
 and supplementation needs.
 
 {{< button link="/pre-natal-par-q" buttontext="Start Pre-natal Questionnaire" >}}
-

@@ -25,3 +25,8 @@ fields:
 - type: text
   name: featured_alt
   label: featured_alt
+pages:
+- content/services/group-exercise.md
+- content/services/post-natal.md
+- content/services/pre-natal.md
+- content/services/train-together.md
