@@ -8,7 +8,7 @@ fields:
     required: false
   label: component
   default: box
-  hidden: true
+  hidden: false
 - name: title
   type: text
   config:
