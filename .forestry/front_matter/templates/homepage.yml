@@ -35,3 +35,5 @@ fields:
   - type: text
     name: link
     label: link
+pages:
+- content/_index.md
