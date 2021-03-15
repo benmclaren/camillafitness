@@ -1,0 +1,14 @@
+---
+label: testimonial
+hide_body: true
+fields:
+- type: field_group_list
+  name: Testimonials
+  label: Testimonials
+  fields:
+  - type: textarea
+    name: text
+    label: text
+  - type: text
+    name: author
+    label: author
