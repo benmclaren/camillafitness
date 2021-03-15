@@ -26,6 +26,7 @@ fields:
   name: featured_alt
   label: featured_alt
 pages:
+- content/services/1-1-training.md
 - content/services/group-exercise.md
 - content/services/post-natal.md
 - content/services/pre-natal.md

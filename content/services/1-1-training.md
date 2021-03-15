@@ -1,12 +1,13 @@
 ---
-title: "1-1 Personal Training"
-date: 2020-12-03T14:37:07Z
-draft: false
-slug: "personal-training"
-subtitle: "Achieve your goals"
-description: "I offer one to one personal training sessions tailored to your personal fitness goals."
-featured_image: "https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/train-together.jpg"
-featured_alt: "Featured image of Camilla"
+title: 1-1 Personal Training
+date: 2020-12-03T14:37:07.000+00:00
+slug: personal-training
+subtitle: Achieve your goals
+description: I offer one to one personal training sessions tailored to your personal
+  fitness goals.
+featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/train-together.jpg
+featured_alt: Featured image of Camilla
+
 ---
 Camilla will create a bespoke programme taking into consideration your
 current level of fitness. The most desirable benefit of personal training is to
@@ -25,4 +26,3 @@ will leave your sessions feeling invigorated, upbeat and ready to take on
 what the world throws at you!
 
 {{< button link="/par-q" buttontext="Start Par-q questionnaire" >}}
-
