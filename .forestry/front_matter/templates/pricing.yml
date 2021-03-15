@@ -14,6 +14,7 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: field_group_list
   name: blocks
   label: blocks
@@ -36,8 +37,22 @@ fields:
   - type: text
     name: badge_text
     label: badge_text
-  - type: text
-    name: width
+    showOnly:
+      field: badge
+      value: true
+  - name: width
+    type: select
+    default: full
+    config:
+      required: false
+      options:
+      - half
+      - full
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
     label: width
 pages:
 - content/pricing.md
