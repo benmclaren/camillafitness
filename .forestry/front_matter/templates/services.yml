@@ -1,0 +1,32 @@
+---
+label: services
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: subtitle
+  label: subtitle
+- type: field_group_list
+  name: blocks
+  label: blocks
+  fields:
+  - type: text
+    name: component
+    label: component
+  - type: datetime
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: featured_image
+    label: featured_image
+  - type: text
+    name: link
+    label: link
