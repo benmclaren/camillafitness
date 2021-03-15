@@ -12,9 +12,9 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: data/testimonials.yaml
-  label: Testimonials
-  create: documents
+  path: data
+  label: Data
+  create: none
   match: "**/*"
 - type: directory
   path: content/services
