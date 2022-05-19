@@ -18,7 +18,6 @@ aside.primary {
   @media (min-width: 37.5em) {
     aside.primary {
       /* responsive content */ } }
-
 /* poppins-regular - latin */
 @font-face {
   font-family: 'Poppins';
@@ -134,7 +133,6 @@ aside.primary {
       --font-size-xs: 1.25rem;
       --font-size-default: 1.13rem;
       --font-size-xxs: 0.88rem; } }
-
 /*
  * Thanks to Mattias: https://matthiasott.com/notes/focus-visible-is-here
 */

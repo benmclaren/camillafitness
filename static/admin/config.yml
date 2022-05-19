@@ -1,0 +1,48 @@
+backend:
+	name: git-gateway
+	branch: master # Branch to update (optional; defaults to master)
+# This line should *not* be indented
+publish_mode: editorial_workflow
+# Global media settings
+#media_library:
+  name: cloudinary
+  output_filename_only: false
+  config:
+    cloud_name: harrycresswell
+    api_key: 826593925311574
+site_url: "https://camilla.fitness/"
+slug: # See: https://www.netlifycms.org/docs/configuration-options/#slug-type
+encoding: "ascii" # Sanitize filenames (slugs) according to RFC3986
+clean_accents: true # Remove diacritics from slug characters before sanitizing
+sanitize_replacement: "-" # The replacement string used to substitute unsafe characters
+collections:
+- name: "homepage"
+	label: "Homepage"
+	editor: # the editor view of a collection or a file inside a files collection. See: https://www.netlifycms.org/docs/configuration-options/#editor
+	preview: false # disable the preview pane for this collection or file
+	files: # Create collection from specific files. See https://www.netlifycms.org/docs/collection-types/#folder-collections
+- label: "Homepage"
+	name: "homepage"
+	file: "/content/_index.md" # Set path to the file
+	fields: # The fields for each document, usually in front matter
+    - { label: "Title", name: "title", widget: "string", hint: "Set the page title" }
+    - { label: "Date", name: "date", widget: "date" }
+    - { label: "Subtitle", name: "subtitle", widget: "string" }
+    - { label: "Insert", name: "insert", widget: "string" }
+    - { label: "Image", name: "image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
+    # Add page builder blocks
+    - label: "Blocks"
+      name: "blocks"
+      hint: "Build the rest of the page with content blocks"
+      widget: "list"
+      typeKey: "component" # Name of the field that will be added to every item in list representing the name of the object widget that item belongs to. Default is “type”.  See: https://www.netlifycms.org/docs/beta-features/#list-widget-variable-types
+      # Note that types requires for example - type: image, rather than - template: image. 
+      types:
+        - label: "Service"
+              name: "service"
+              widget: "object"
+              fields:
+                - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
+                - { label: "Description", name: "description", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
+                - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
+                - { label: "Link", name: "link", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
