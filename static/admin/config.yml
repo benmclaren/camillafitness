@@ -30,22 +30,6 @@ collections:
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Insert", name: "insert", widget: "string" }
           - { label: "Image", name: "image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
-          # Add page builder blocks
-          - label: "Blocks"
-            name: "blocks"
-            hint: "Build the rest of the page with content blocks"
-            widget: "list"
-            typeKey: "component" # Name of the field that will be added to every item in list representing the name of the object widget that item belongs to. Default is “type”.  See: https://www.netlifycms.org/docs/beta-features/#list-widget-variable-types
-            # Note that types requires for example - type: image, rather than - template: image. 
-            types:
-              - label: "Service"
-                    name: "service"
-                    widget: "object"
-                    fields:
-                      - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
-                      - { label: "Description", name: "description", widget: "text", hint: "Describe the content of the page (this is helps search engines rank the page)" }
-                      - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
-                      - { label: "Link", name: "link", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Page" # Used in the UI
     folder: "content/page" # The path to the folder where the documents are stored. See:  https://www.netlifycms.org/docs/collection-types/#folder-collections
@@ -60,6 +44,22 @@ collections:
       - { label: "Slug", name: "slug", widget: "string", hint: "Set the URL path for the page to link to (eg. /about/)" }
       - { label: "subtitle", name: "subtitle", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
       - { label: "Body", name: "body", widget: "markdown" }
+       # Add page builder blocks
+      - label: "Blocks"
+        name: "blocks"
+        hint: "Build the rest of the page with content blocks"
+        widget: "list"
+        typeKey: "component" # Name of the field that will be added to every item in list representing the name of the object widget that item belongs to. Default is “type”.  See: https://www.netlifycms.org/docs/beta-features/#list-widget-variable-types
+        # Note that types requires for example - type: image, rather than - template: image. 
+        types:
+          - label: "Service"
+                name: "service"
+                widget: "object"
+                fields:
+                  - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
+                  - { label: "Description", name: "description", widget: "text", hint: "Describe the content of the page (this is helps search engines rank the page)" }
+                  - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
+                  - { label: "Link", name: "link", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
   - name: "services" # Used in routes, e.g., /admin/collections/blog
     label: "Services" # Used in the UI
     folder: "content/services" # The path to the folder where the documents are stored. See:  https://www.netlifycms.org/docs/collection-types/#folder-collections

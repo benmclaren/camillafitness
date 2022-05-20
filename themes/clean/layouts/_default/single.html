@@ -1,12 +1,6 @@
 {{ define "main" }}
-  <section class="hero container">
-    <h1 class="text-center page-title">{{ .Title }}</h1>
-    {{ with .Params.subtitle }}
-      <h2 class="text-center page-subtitle">{{ . }}</h2>
-    {{ else }}
-      <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
-    {{ end }}
-  </section>
+  
+  {{ partial "hero.html" . }}
 
   {{ with .Content }}
     <div class="text-container page-content">
@@ -21,8 +15,6 @@
       {{ range . }}
           {{ if eq .component "box"  }}
             {{ partial "blocks/box" (dict "Params" .) }}
-          {{ else if eq .component "service" }}
-            {{ partial "blocks/service" (dict "Params" .) }}
           {{ end }}
       {{ end }}
     </div>

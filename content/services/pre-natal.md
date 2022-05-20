@@ -1,6 +1,6 @@
 ---
 title: Pre Natal
-date: 2020-12-03T14:39:21.000+00:00
+date: 2020-12-01T14:39:21.000+00:00
 slug: pre-natal-training
 subtitle: Safe exercises and nutritional advice
 description: Pregnancy is an exciting time, however for many women the physiological,
