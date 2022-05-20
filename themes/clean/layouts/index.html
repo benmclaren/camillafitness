@@ -34,14 +34,13 @@
     </blockquote>
   </section>
 
-
+  <div class= "block-container">
   {{ range .Params.blocks }}
     {{ if eq .component "service"  }}
-    <div class= "block-container">
       {{ partial "blocks/service" (dict "Params" .) }}
-    </div>
     {{ end }}
   {{ end }}
+  </div>
 {{ end }}
 
 

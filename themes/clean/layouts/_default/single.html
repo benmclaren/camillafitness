@@ -7,19 +7,25 @@
       <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
     {{ end }}
   </section>
-  <div class="text-container page-content">
-    {{ .Content }}
-  </div>
 
-
-
-
-  {{ range .Params.blocks }}
-  {{ if eq .component "service"  }}
-  <div class= "block-container">
-    {{ partial "blocks/service" (dict "Params" .) }}
-  </div>
+  {{ with .Content }}
+    <div class="text-container page-content">
+      {{ . }}
+    </div>
   {{ end }}
-{{ end }}
+  
+  {{ $currentURL := .URL }}
+  {{ $blocks := .Params.blocks }}
+  {{ with $blocks }}
+    <div class="{{ if eq $currentURL "/pricing/" }}pricing-container{{ else }}block-container{{ end }}">
+      {{ range . }}
+          {{ if eq .component "box"  }}
+            {{ partial "blocks/box" (dict "Params" .) }}
+          {{ else if eq .component "service" }}
+            {{ partial "blocks/service" (dict "Params" .) }}
+          {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
 
 {{ end }}

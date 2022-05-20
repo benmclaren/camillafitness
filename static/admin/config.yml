@@ -57,6 +57,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
       - { label: "Date", name: "date", widget: "date", hint: "Set a publish date" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "Set the URL path for the page to link to (eg. /about/)" }
       - { label: "subtitle", name: "subtitle", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "services" # Used in routes, e.g., /admin/collections/blog
@@ -72,7 +73,7 @@ collections:
       - { label: "Date", name: "date", widget: "date", hint: "Set a publish date" }
       - { label: "Description", name: "description", widget: "text", hint: "Describe the content of the page (this is helps search engines rank the page)" }
       - { label: "Subtitle", name: "subtitle", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
-      - { label: "Slug", name: "slug", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "Set the URL path for the page to link to (eg. /personal-training/)" }
       - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
       - { label: "Featured image alt", name: "featured_image_alt", widget: "string", hint: "Add an alternate text to describe the featured image and improve SEO", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
