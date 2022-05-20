@@ -1,10 +1,10 @@
 backend:
-	name: git-gateway
-	branch: master # Branch to update (optional; defaults to master)
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 # This line should *not* be indented
 publish_mode: editorial_workflow
 # Global media settings
-#media_library:
+media_library:
   name: cloudinary
   output_filename_only: false
   config:
@@ -12,9 +12,9 @@ publish_mode: editorial_workflow
     api_key: 826593925311574
 site_url: "https://camilla.fitness/"
 slug: # See: https://www.netlifycms.org/docs/configuration-options/#slug-type
-encoding: "ascii" # Sanitize filenames (slugs) according to RFC3986
-clean_accents: true # Remove diacritics from slug characters before sanitizing
-sanitize_replacement: "-" # The replacement string used to substitute unsafe characters
+  encoding: "ascii" # Sanitize filenames (slugs) according to RFC3986
+  clean_accents: true # Remove diacritics from slug characters before sanitizing
+  sanitize_replacement: "-" # The replacement string used to substitute unsafe characters
 collections:
   - name: "homepage" # Used in routes, e.g., /admin/collections/blog
     label: "Homepage" # Used in the UI
@@ -52,14 +52,16 @@ collections:
         typeKey: "component" # Name of the field that will be added to every item in list representing the name of the object widget that item belongs to. Default is “type”.  See: https://www.netlifycms.org/docs/beta-features/#list-widget-variable-types
         # Note that types requires for example - type: image, rather than - template: image. 
         types:
-          - label: "Service"
-                name: "service"
-                widget: "object"
-                fields:
-                  - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
-                  - { label: "Description", name: "description", widget: "text", hint: "Describe the content of the page (this is helps search engines rank the page)" }
-                  - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
-                  - { label: "Link", name: "link", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
+          - label: "Box"
+            name: "box"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Color", name: "color", widget: "boolean" }
+              - { label: "Badge", name: "badge", widget: "boolean" }
+              - { label: "Badge text", name: "badge_text", widget: "string" }
+              - { label: "Width", name: "width", widget: "select",  options: ["full", "half"] }
   - name: "services" # Used in routes, e.g., /admin/collections/blog
     label: "Services" # Used in the UI
     folder: "content/services" # The path to the folder where the documents are stored. See:  https://www.netlifycms.org/docs/collection-types/#folder-collections
