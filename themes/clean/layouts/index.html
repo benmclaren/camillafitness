@@ -34,14 +34,6 @@
     </blockquote>
   </section>
 
-  {{/*  <div class= "block-container">
-  {{ range .Params.blocks }}
-    {{ if eq .component "service"  }}
-      {{ partial "blocks/service" (dict "Params" .) }}
-    {{ end }}
-  {{ end }}
-  </div>  */}}
-
   <div class= "block-container">
     {{ range where .Site.RegularPages "Section" "services" }}
         <div class="service">
