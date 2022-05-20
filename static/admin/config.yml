@@ -43,7 +43,7 @@ collections:
                     widget: "object"
                     fields:
                       - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
-                      - { label: "Description", name: "description", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
+                      - { label: "Description", name: "description", widget: "text", hint: "Describe the content of the page (this is helps search engines rank the page)" }
                       - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
                       - { label: "Link", name: "link", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
   - name: "page" # Used in routes, e.g., /admin/collections/blog
@@ -70,12 +70,23 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
       - { label: "Date", name: "date", widget: "date", hint: "Set a publish date" }
-      - { label: "Description", name: "description", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
+      - { label: "Description", name: "description", widget: "text", hint: "Describe the content of the page (this is helps search engines rank the page)" }
       - { label: "Subtitle", name: "subtitle", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
       - { label: "Slug", name: "slug", widget: "string", hint: "Set the URL path for the page to link to (eg. /services/personal-training/)" }
       - { label: "Featured image", name: "featured_image", widget: "image", hint: "Add a featured image (this shows on the list page)" }
       - { label: "Featured image alt", name: "featured_image_alt", widget: "string", hint: "Add an alternate text to describe the featured image and improve SEO", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "testimonials" # Used in routes, e.g., /admin/collections/blog
+    label: "Testimonials" # Used in the UI
+    editor: # the editor view of a collection or a file inside a files collection. See: https://www.netlifycms.org/docs/configuration-options/#editor
+      preview: false # disable the preview pane for this collection or file
+    files: # Create collection from specific files. See https://www.netlifycms.org/docs/collection-types/#folder-collections
+      - label: "Testimonials"
+        name: "testimonials"
+        file: "data/testimonials.yaml" # Set path to the file
+        fields:
+          - { label: "Text", name: "text", widget: "text", hint: "Add the testimonial text" }
+          - { label: "Author", name: "author", widget: "string", hint: "Add the testimonial author" }
   - name: "form" # Used in routes, e.g., /admin/collections/blog
     label: "Form" # Used in the UI
     folder: "content/form" # The path to the folder where the documents are stored. See:  https://www.netlifycms.org/docs/collection-types/#folder-collections
