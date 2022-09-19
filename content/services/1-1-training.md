@@ -1,11 +1,11 @@
 ---
 title: 1-1 Personal Training
-date: 2020-12-03T14:37:07.000+00:00
+date: 2020-12-04T14:37:07.000+00:00
 slug: personal-training
 subtitle: Achieve your goals
 description: I offer one to one personal training sessions tailored to your personal
   fitness goals.
-featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/train-together.jpg
+featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/camilla-boxing.jpg
 featured_alt: Featured image of Camilla
 
 ---

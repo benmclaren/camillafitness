@@ -1,6 +1,6 @@
 ---
 title: Post Partum
-date: 2020-12-03T14:39:29.000+00:00
+date: 2020-12-02T14:39:29.000+00:00
 slug: post-partum-training
 subtitle: Regain your physical strength
 description: I can create a bespoke programme taking into consideration your unique

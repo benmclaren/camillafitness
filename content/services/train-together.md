@@ -1,6 +1,6 @@
 ---
 title: Train Together
-date: 2020-12-03T14:39:14.000+00:00
+date: 2020-11-31T14:39:14.000+00:00
 slug: train-together
 subtitle: Train with your partner, a family member or friend.
 description: Train with your partner, a family member or friend.

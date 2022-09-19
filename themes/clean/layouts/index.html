@@ -34,14 +34,19 @@
     </blockquote>
   </section>
 
-
-  {{ range .Params.blocks }}
-    {{ if eq .component "service"  }}
-    <div class= "block-container">
-      {{ partial "blocks/service" (dict "Params" .) }}
-    </div>
+  <div class= "block-container">
+    {{ range where .Site.RegularPages "Section" "services" }}
+        <div class="service">
+          <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
+          <div class="service-inner text-center">
+            <h3 class="service-title">{{ .Title }}</h3>
+            <p>{{ .Params.description }}</p>
+            <a href="{{ .Permalink }}">Find out more</a>
+          </div>
+        </div>
     {{ end }}
-  {{ end }}
+  </div>
+
 {{ end }}
 
 

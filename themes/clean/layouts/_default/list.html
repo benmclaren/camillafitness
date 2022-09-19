@@ -1,19 +1,18 @@
 {{ define "main" }}
-  <section class="hero container">
-    <h1 class="text-center page-title">{{ .Title }}</h1>
-    {{ with .Params.subtitle }}
-      <h2 class="text-center page-subtitle">{{ . }}</h2>
-    {{ else }}
-      <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
-    {{ end }}
+ 
+ {{ partial "hero.html" . }}
+
+  <section class="block-container">
+   {{ range .RegularPages.ByDate.Reverse }}
+    <div class="service">
+      <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
+      <div class="service-inner text-center">
+        <h3 class="service-title">{{ .Title }}</h3>
+        <p>{{ .Params.description }}</p>
+        <a href="{{ .Permalink }}">Find out more</a>
+      </div>
+    </div>
+   {{ end }}
   </section>
 
-
-
-{{ end }}
-
-
-
-  
-
-
+ {{ end }}

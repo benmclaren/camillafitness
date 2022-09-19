@@ -18,7 +18,6 @@ aside.primary {
   @media (min-width: 37.5em) {
     aside.primary {
       /* responsive content */ } }
-
 /* poppins-regular - latin */
 @font-face {
   font-family: 'Poppins';
@@ -134,7 +133,6 @@ aside.primary {
       --font-size-xs: 1.25rem;
       --font-size-default: 1.13rem;
       --font-size-xxs: 0.88rem; } }
-
 /*
  * Thanks to Mattias: https://matthiasott.com/notes/focus-visible-is-here
 */
@@ -466,6 +464,23 @@ footer {
 .pricing-container {
   padding: calc(var(--space) *4); }
 
+.price {
+  background-color: white;
+  border: 2px dashed var(--color-dark);
+  padding: calc(var(--space) *4);
+  align-self: center;
+  margin-top: calc(var(--space) *4);
+  margin-bottom: calc(var(--space) *8); }
+
+.price-title {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg); }
+
+.price-subtitle {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-lg);
+  font-weight: 100; }
+
 @media (min-width: 75em) {
   .pricing-container {
     display: grid;
@@ -473,56 +488,56 @@ footer {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: calc(1rem*4);
     grid-row-gap: calc(1rem); }
-  .service-section:first-child {
+  .price:first-child {
     grid-area: 1 / 1 / 2 / 5; }
-  .service-container:nth-child(2) {
+  .price:nth-child(2) {
     grid-area: 2 / 1 / 3 / 3; }
-  .service-container:nth-child(3) {
+  .price:nth-child(3) {
     grid-area: 2 / 3 / 3 / 5; }
-  .service-container:nth-child(4) {
+  .price:nth-child(4) {
     grid-area: 3 / 1 / 4 / 3; }
-  .service-container:nth-child(5) {
+  .price:nth-child(5) {
     grid-area: 3 / 3 / 4 / 5; } }
 
-.service-section {
+.service {
   margin-top: calc(var(--space) *4);
   margin-bottom: calc(var(--space) *8); }
 
 @media (max-width: 500px) {
-  .service-section {
+  .service {
     margin-top: 0px;
     margin-bottom: 0px; } }
 
-.service-container {
+.service-inner {
   background-color: white;
   border: 2px dashed var(--color-dark);
   padding: calc(var(--space) *4);
   align-self: center; }
-  .service-container p {
+  .service-inner p {
     padding: calc(var(--space) *3); }
 
 @media (min-width: 75em) {
-  .block-container:nth-child(odd) .service-section:nth-child(odd) {
+  .service:nth-child(odd) {
     display: grid;
     grid-template-columns: 6fr 1fr 5fr;
     grid-column-gap: 0px; }
-    .block-container:nth-child(odd) .service-section:nth-child(odd) img {
+    .service:nth-child(odd) img {
       grid-column-start: 1;
       grid-column-end: 3;
       grid-row-start: 1; }
-    .block-container:nth-child(odd) .service-section:nth-child(odd) .service-container {
+    .service:nth-child(odd) .service-inner {
       grid-column-start: 2;
       grid-column-end: 4;
       grid-row-start: 1; }
-  .block-container:nth-child(even) .service-section {
+  .service:nth-child(even) {
     display: grid;
     grid-template-columns: 5fr 1fr 6fr;
     grid-column-gap: 0px; }
-    .block-container:nth-child(even) .service-section img {
+    .service:nth-child(even) img {
       grid-column-start: 2;
       grid-column-end: 4;
       grid-row-start: 1; }
-    .block-container:nth-child(even) .service-section .service-container {
+    .service:nth-child(even) .service-inner {
       grid-column-start: 1;
       grid-column-end: 3;
       grid-row-start: 1; } }

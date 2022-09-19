@@ -2,8 +2,7 @@
 title: Contact
 date: 2020-12-01T15:13:58.000+00:00
 subtitle: Get in touch.
-layout: contact
-
+slug: "contact"
 ---
 Contact me either via phone (+44 7904 525609) or email (camilla@camillapt.com).
 

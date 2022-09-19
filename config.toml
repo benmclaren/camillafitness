@@ -4,7 +4,7 @@ title = "Camilla Fitness"
 theme = "clean"
 
 [permalinks]
-  page = "/:title/"
+  page = "/:slug/"
   form = "/:slug/"
 
 [[menu.nav]]
