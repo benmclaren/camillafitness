@@ -8,10 +8,10 @@
     </div>
   {{ end }}
   
-  {{ $currentURL := .URL }}
+  {{ $pricingPage := .Site.GetPage "/pricing" }}
   {{ $blocks := .Params.blocks }}
   {{ with $blocks }}
-    <div class="{{ if eq $currentURL "/pricing/" }}pricing-container{{ else }}block-container{{ end }}">
+    <div class="{{ with $pricingPage }}pricing-container{{ else }}block-container{{ end }}">
       {{ range . }}
           {{ if eq .component "box"  }}
             {{ partial "blocks/box" (dict "Params" .) }}
