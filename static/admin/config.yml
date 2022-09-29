@@ -91,8 +91,8 @@ collections:
     files: # Create collection from specific files. See https://www.netlifycms.org/docs/collection-types/#folder-collections
       - label: "Testimonials"
         name: "testimonials"
-        file: "data/testimonials.yaml" # Set path to the file
-        extension: "yaml" # Set file extension
+        file: "data/testimonials.yml" # Set path to the file
+        extension: "yml" # Set file extension
         fields:
           - label: "Testimonial"
             name: "testimonial"
