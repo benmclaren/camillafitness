@@ -1,9 +1,10 @@
 ---
-title: "About Camilla"
-date: 2020-12-01T15:13:58Z
+title: About Camilla
+date: 2020-12-01T15:13:58.000Z
 draft: false
-subtitle: "Finding the inner strength, motivation and power you need to face life’s challenges."
-slug: "about"
+slug: about
+subtitle: Finding the inner strength, motivation and power you need to face
+  life’s challenges.
 ---
 I have always been a lover of the outdoors and being active. My passion for horses is where it began, followed by being selected, at school, to train with my then idol, Sally Gunnell, at Crystal Palace athletics track, over hurdles. Yes- I LOVE to jump! Camilla Cresswell PT was born out of my sporting childhood. In my teens I was able to join a gym where I became a ‘spin’ fanatic - especially on colder darker nights- participating in back to back classes in what became my 2nd home at LA Fitness. In 2003, I completed my Level 2 Fitness Instructor qualification.
 
@@ -13,12 +14,25 @@ I am now a qualified Level 3 Personal Trainer, and passionate about helping you 
 
 I have understanding & knowledge for athletes who need a change in programming, and empathy for those stuck working at a desk who need motivation, enthusiasm and positive energy. I can provide inspiration and changes to your fitness programming to help you achieve your goals.
 
+
+
+
+
+
+
+
+
 ## Qualifications
-- Certified Level 3 Personal Trainer
-- Certified Pre and Post Natal Personal Trainer
-- A member of The Chartered Institute for the Management of Sport and Physical Activity
+
+* Certified Level 3 Personal Trainer
+* Certified Pre and Post Natal Personal Trainer
+* A member of The Chartered Institute for the Management of Sport and Physical Activity
+* Age Group Triathlete for Great Britain
+
+
 
 ## Philosophy & Motivation
+
 Fitness is essential for emotional and physical stamina and for overall health and
 wellbeing. My motivation to exercise is to feel great about myself, not so much for
 the physical benefits, they’re an added bonus! It’s about feeling happy and energised
@@ -29,6 +43,9 @@ goals will encourage you to stay motivated and build on your confidence and self
 esteem.
 
 ## Approach
+
+
+
 I thrive on being outdoors, I am more than happy to train you outside of a gym environment come rain or shine. I will also inspire and help you find what you enjoy. My positive, upbeat and energetic persona will encourage and motivate you. 
 
 We’ll start with a consultation where we will discuss your goals, current fitness levels and nutrition. I will then design a bespoke programme to help you on your fitness journey.
