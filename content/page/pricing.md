@@ -13,7 +13,7 @@ blocks:
     width: full
   - component: box
     title: 1-1 Personal Training (4 sessions)
-    description: £180
+    description: £195
     color: true
     badge: false
     badge_text: 12.5.%
