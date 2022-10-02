@@ -1,43 +1,43 @@
 ---
 title: Pricing
-date: 2020-12-01T15:13:58.000+00:00
+date: 2022-10-02T14:13:58.000Z
+slug: pricing
 subtitle: Keeping it clear and simple.
-slug: "pricing"
 blocks:
-- component: box
-  title: 1-1 Personal Training (Pay as you go)
-  description: "£40 per hour session"
-  color: false
-  badge: false
-  badge_text: 12.5% off
-  width: full
-- component: box
-  title: 1-1 Personal Training (4 sessions)
-  description: "£140"
-  color: true
-  badge: true
-  badge_text: 12.5% off
-  width: half
-- component: box
-  title: 1-1 Personal Training (8 sessions)
-  description: "£280"
-  color: true
-  badge: true
-  badge_text: 12.5% off
-  width: half
-- component: box
-  title: HIIT group classes
-  description: "£7.50 per class per person"
-  color: true
-  badge: false
-  badge_text: 12.5% off
-  width: half
-- component: box
-  title: 2-1 Train with a partner
-  description: "£50 per session/£25 per person"
-  color: true
-  badge: false
-  badge_text: 12.5% off
-  width: half
-
+  - component: box
+    title: 1-1 Personal Training (Pay as you go)
+    description: £50 per hour session
+    color: false
+    badge: false
+    badge_text: 12.5%
+    width: full
+  - component: box
+    title: 1-1 Personal Training (4 sessions)
+    description: £180
+    color: true
+    badge: false
+    badge_text: 12.5.%
+    width: half
+  - component: box
+    title: 1-1 Personal Training (12 sessions)
+    description: £540
+    color: true
+    badge: false
+    badge_text: 12.5% off
+    width: half
+  - component: box
+    title: HIIT group classes
+    description: £10 per class per person
+    color: true
+    badge: false
+    badge_text: 12.5%
+    width: half
+  - component: box
+    title: 2-1 Train with a partner
+    description: £70 per session/£35 per person
+    color: true
+    badge: false
+    badge_text: 12.5% off
+    width: half
 ---
+Pricing
