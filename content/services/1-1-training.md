@@ -5,7 +5,7 @@ slug: personal-training
 subtitle: Achieve your goals
 description: I offer one to one personal training sessions tailored to your personal
   fitness goals.
-featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/camilla-boxing.jpg
+featured_image: https://res.cloudinary.com/camillafitness/image/upload/v1664793993/camilla-boxing_dtysbh.jpg
 featured_alt: Featured image of Camilla
 
 ---

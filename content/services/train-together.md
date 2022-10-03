@@ -4,7 +4,7 @@ date: 2020-11-31T14:39:14.000+00:00
 slug: train-together
 subtitle: Train with your partner, a family member or friend.
 description: Train with your partner, a family member or friend.
-featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/train-together.jpg
+featured_image: https://res.cloudinary.com/camillafitness/image/upload/v1664793993/train-together_xad5qi.jpg
 featured_alt: Featured image of Camilla
 
 ---

@@ -13,8 +13,8 @@ media_library:
   name: cloudinary
   output_filename_only: false
   config:
-    cloud_name: harrycresswell
-    api_key: 826593925311574
+    cloud_name: camillafitness
+    api_key: 741914999114957
 site_url: "https://camilla.fitness/"
 slug: # See: https://www.netlifycms.org/docs/configuration-options/#slug-type
   encoding: "ascii" # Sanitize filenames (slugs) according to RFC3986

@@ -6,7 +6,7 @@ subtitle: Regain your physical strength
 description: I can create a bespoke programme taking into consideration your unique
   birthing experience, pelvic floor weaknesses, diastasis recti (separation of abdominal
   muscles) and postural imbalances.
-featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1615486380/camillafitness/yoga-bridge.jpg
+featured_image: https://res.cloudinary.com/camillafitness/image/upload/v1664793994/yoga-bridge_a0doy1.jpg
 featured_alt: Featured image of Camilla
 
 ---
