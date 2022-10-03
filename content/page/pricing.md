@@ -40,4 +40,3 @@ blocks:
     badge_text: 12.5% off
     width: half
 ---
-Pricing
