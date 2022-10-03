@@ -93,13 +93,16 @@ collections:
         name: "testimonials"
         file: "data/testimonials.yml" # Set path to the file
         extension: "yml" # Set file extension
+        widget: "list"
         fields:
-          - label: "Testimonial"
-            name: "testimonial"
-            widget: "list"
-            fields:
-              - { label: "Text", name: "text", widget: "text", hint: "Add the testimonial text" }
-              - { label: "Author", name: "author", widget: "string", hint: "Add the testimonial author" }
+          - { label: "Text", name: "text", widget: "text", hint: "Add the testimonial text" }
+          - { label: "Author", name: "author", widget: "string", hint: "Add the testimonial author" }
+          # - label: "Testimonial"
+          #   name: "testimonial"
+          #   widget: "list"
+          #   fields:
+          #     - { label: "Text", name: "text", widget: "text", hint: "Add the testimonial text" }
+          #     - { label: "Author", name: "author", widget: "string", hint: "Add the testimonial author" }
   - name: "form" # Used in routes, e.g., /admin/collections/blog
     label: "Form" # Used in the UI
     folder: "content/form" # The path to the folder where the documents are stored. See:  https://www.netlifycms.org/docs/collection-types/#folder-collections
