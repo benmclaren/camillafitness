@@ -22,19 +22,9 @@
     <!-- Google Verification -->
     <meta name="google-site-verification" content="wRo_PWALyYfpZJmULKoZvbluBuMap8g40xRi00D-l28" />
     <!-- Styles -->
-    {{ if .Site.IsServer }}
-      <!-- Pipe Sass to CSS, include options, enable sourcemaps -->
-      {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "enableSourceMap" true) }}
-      <!-- Load main.css-->
-      <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-    {{ else }}
-      <!-- Set target path -->
-      {{ $cssOpts := (dict "targetPath" "css/main.css" ) }}
-       <!-- Pipe Sass to CSS, include options, add postCSS autoprefixer, minify and hash -->
-      {{ $styles := resources.Get "scss/main.scss" | toCSS $cssOpts | postCSS (dict "use" "autoprefixer") | minify | fingerprint }}
-      <!-- Load main.css and authenticate hashed file -->
-      <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-    {{ end }}
+    {{ $scss := resources.Get "scss/main.scss" }}
+    {{ $styles := $scss | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
     <!-- RSS -->
     {{ with .OutputFormats.Get "rss" -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
