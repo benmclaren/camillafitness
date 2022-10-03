@@ -1,9 +1,9 @@
 backend:
-  #name: git-gateway
-  name: proxy # enable when running the CMS locally. See: https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
-  proxy_url: http://localhost:8081/api/v1 # enable when running teh CMS locally. See: https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
-  #branch: master # optional, defaults to master
-  branch: testimonials_config # Branch to update (optional; defaults to master)
+  name: git-gateway
+  #name: proxy # enable when running the CMS locally. See: https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+  #proxy_url: http://localhost:8081/api/v1 # enable when running teh CMS locally. See: https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+  branch: master # optional, defaults to master
+  #branch: testimonials_config # Branch to update (optional; defaults to master)
 # This line should *not* be indented
 publish_mode: editorial_workflow
 # when using the default proxy server port
