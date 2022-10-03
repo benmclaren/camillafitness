@@ -6,7 +6,7 @@ subtitle: Keeping it clear and simple.
 blocks:
   - component: box
     title: 1-1 Personal Training (Pay as you go)
-    description: £50 per hour session
+    description: £55 per hour session
     color: false
     badge: false
     badge_text: 12.5%
