@@ -33,7 +33,7 @@ esteem.
 
 ## Approach
 
-I thrive on being outdoors, and very happy to train you outside of a gym environment come rain or shine. I will help you find your strengths. My positive, upbeat and energetic persona will encourage and motivate you. 
+I thrive on being outdoors, and very happy to train you outside of a gym environment whatever the weather. I will help you find your strengths. My positive, upbeat and energetic persona will encourage and motivate you. 
 
 In my private boutique gym we'll start with a consultation where we will discuss your goals, current fitness levels and nutrition. I will then design a bespoke programme to help you on your fitness journey.
 
