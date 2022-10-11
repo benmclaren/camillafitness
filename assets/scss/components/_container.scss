@@ -51,3 +51,9 @@
 .block-container {
   padding: calc(var(--space) *4);
 }
+
+.hero-banner-image {
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+}

@@ -1,8 +1,10 @@
-<section class="hero container">
- <h1 class="text-center page-title">{{ .Title }}</h1>
- {{ with .Params.subtitle }}
-   <h2 class="text-center page-subtitle">{{ . }}</h2>
- {{ else }}
-   <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
- {{ end }}
-</section>
+<div class="hero-banner-image" style="background-image:url({{ .Params.hero_banner_image }})">
+  <section class="hero container" >
+   <h1 class="text-center page-title">{{ .Title }}</h1>
+   {{ with .Params.subtitle }}
+     <h2 class="text-center page-subtitle">{{ . }}</h2>
+   {{ else }}
+     <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
+   {{ end }}
+  </section>
+</div>
