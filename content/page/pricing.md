@@ -3,6 +3,7 @@ title: Pricing
 date: 2020-12-01T15:13:58.000+00:00
 subtitle: Keeping it clear and simple.
 slug: "pricing"
+hero_banner_image: "https://res.cloudinary.com/camillafitness/image/upload/v1665679958/run-darken_iartyr.png"
 blocks:
 - component: box
   title: 1-1 Personal Training (Pay as you go)

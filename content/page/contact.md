@@ -3,6 +3,7 @@ title: Contact
 date: 2020-12-01T15:13:58.000+00:00
 subtitle: Get in touch.
 slug: "contact"
+hero_banner_image: "https://res.cloudinary.com/camillafitness/image/upload/v1665680162/run2-banner-darken_wzxrz2.png"
 ---
 Contact me either via phone (+44 7904 525609) or email (camilla@camillapt.com).
 
