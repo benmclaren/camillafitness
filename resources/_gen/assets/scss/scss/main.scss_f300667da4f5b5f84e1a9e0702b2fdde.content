@@ -615,7 +615,7 @@ footer {
   max-width: 1500px; }
 
 .banner-image {
-  max-height: 600px;
+  max-height: 500px;
   object-fit: cover; }
 
 .logo {
