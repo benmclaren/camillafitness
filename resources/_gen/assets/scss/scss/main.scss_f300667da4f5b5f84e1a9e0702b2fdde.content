@@ -339,15 +339,21 @@ p > code {
   padding: calc(var(--space) *4); }
 
 .hero-banner-image {
-  background-size: cover;
-  background-position: center;
-  padding: 40px; }
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .hero-banner-image > section > h1 {
   color: white; }
 
 .hero-banner-image > section > h2 {
   color: white; }
+
+.page-banner {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
 
 header,
 footer {
@@ -607,6 +613,10 @@ footer {
 .hero-image {
   margin: calc(var(--space) *8) auto;
   max-width: 1500px; }
+
+.banner-image {
+  max-height: 600px;
+  object-fit: cover; }
 
 .logo {
   font-size: var(--font-size-md);

@@ -1,4 +1,4 @@
-{{ if isset .Params "hero_banner_image" }}
+{{/*  {{ if isset .Params "hero_banner_image" }}
   <div class="hero-banner-image" style="background-image:url({{ .Params.hero_banner_image }})">
 {{ end }}
     <section class="hero container" >
@@ -9,4 +9,43 @@
       <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
     {{ end }}
     </section>
-  </div>
+  </div>  */}}
+
+  {{ if isset .Params "hero_banner_image" }}
+  <div class="hero-banner-image">
+    <section class="hero container page-banner" >
+      <h1 class="text-center page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <h2 class="text-center page-subtitle">{{ . }}</h2>
+      {{ else }}
+        <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
+      {{ end }}
+    </section>
+    <img class="banner-image" 
+    sizes="100vw" 
+    
+    srcset ="https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 256w,
+  
+        https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 512w,
+  
+        https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 768w,
+  
+        https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 1024w,
+  
+        https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 3000w"
+  
+  src="  https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70,w_512/{{ .Params.hero_banner_image }}"
+  alt="image of Camilla" />
+  </div>  
+  {{ else }}
+    <section class="hero container" >
+      <h1 class="text-center page-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <h2 class="text-center page-subtitle">{{ . }}</h2>
+      {{ else }}
+        <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
+      {{ end }}
+    </section>
+  {{ end }}
+
+  
