@@ -1,8 +1,9 @@
 ---
 title: Pricing
 date: 2022-10-02T14:13:58.000Z
-slug: pricing
 subtitle: Keeping it clear and simple.
+slug: "pricing"
+hero_banner_image: "v1665679958/run-darken_iartyr.png"
 blocks:
   - component: box
     title: 1-1 Personal Training (Pay as you go)

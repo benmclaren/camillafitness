@@ -18,6 +18,7 @@ aside.primary {
   @media (min-width: 37.5em) {
     aside.primary {
       /* responsive content */ } }
+
 /* poppins-regular - latin */
 @font-face {
   font-family: 'Poppins';
@@ -133,6 +134,7 @@ aside.primary {
       --font-size-xs: 1.25rem;
       --font-size-default: 1.13rem;
       --font-size-xxs: 0.88rem; } }
+
 /*
  * Thanks to Mattias: https://matthiasott.com/notes/focus-visible-is-here
 */
@@ -335,6 +337,23 @@ p > code {
 
 .block-container {
   padding: calc(var(--space) *4); }
+
+.hero-banner-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero-banner-image > section > h1 {
+  color: white; }
+
+.hero-banner-image > section > h2 {
+  color: white; }
+
+.page-banner {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
 
 header,
 footer {
@@ -594,6 +613,10 @@ footer {
 .hero-image {
   margin: calc(var(--space) *8) auto;
   max-width: 1500px; }
+
+.banner-image {
+  max-height: 500px;
+  object-fit: cover; }
 
 .logo {
   font-size: var(--font-size-md);

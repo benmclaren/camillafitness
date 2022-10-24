@@ -5,4 +5,5 @@ draft: false
 subtitle: "Camilla’s your lady."
 layout: testimonials
 slug: "testimonials"
+hero_banner_image: "v1665508832/bike-darken_rccwla.png"
 ---

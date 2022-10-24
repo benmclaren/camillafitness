@@ -2,8 +2,9 @@
 title: About Camilla
 date: 2022-10-02T14:13:58.000Z
 draft: false
-slug: about
-subtitle: Finding the inner strength and motivation you need to face life’s challenges.
+subtitle: "Finding the inner strength, motivation and power you need to face life’s challenges."
+slug: "about"
+hero_banner_image: "v1665505412/aboutimage-darken_tyhwfa.png"
 ---
 A lover of the outdoors and being active, my passion for horses is where it started. At high school I was selected to train with my then idol, Sally Gunnell, at Crystal Palace athletics track, over hurdles. Camilla Cresswell PT was born out of my sporting childhood. In my teens the spin studio (in LA Fitness) was where I could be found, exerting energy to loud music in back to back spin classes, beat that.  This led to a hunger for strength training. In 2003, I completed my Level 2 Fitness Instructor qualification.
 
