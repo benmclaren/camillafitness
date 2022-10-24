@@ -101,6 +101,10 @@ footer {
   .icon {
     position: absolute;
     right: calc(var(--space) *4);
+
+    svg {
+      display: block;
+    }
   }
 
   .logo {
