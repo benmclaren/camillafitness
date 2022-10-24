@@ -7,23 +7,22 @@
     {{ end }}
       <h1 class="text-center page-title">{{ .Title }}</h1>
   </section>
-  
   <figure class="container-wide">
     <div class="aspect-ratio-wide">
       <img 
           sizes="(min-width: 30em) 28em, 100vw" 
           
-          srcset ="https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_70/{{ .Params.image }} 256w,
+          srcset ="{{ .Site.Params.cloudinary_url }}/f_auto,q_70/{{ .Params.image }} 256w,
 
-              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_70/{{ .Params.image }} 512w,
+          {{ .Site.Params.cloudinary_url }}/f_auto,q_70/{{ .Params.image }} 512w,
 
-              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_70/{{ .Params.image }} 768w,
+          {{ .Site.Params.cloudinary_url }}/f_auto,q_70/{{ .Params.image }} 768w,
 
-              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_70/{{ .Params.image }} 1024w,
+          {{ .Site.Params.cloudinary_url }}/f_auto,q_70/{{ .Params.image }} 1024w,
 
-              https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_70/{{ .Params.image }} 3000w"
+          {{ .Site.Params.cloudinary_url }}/f_auto,q_70/{{ .Params.image }} 3000w"
 
-      src="  https://res.cloudinary.com/harrycresswell/image/upload/f_auto,q_70,w_512/{{ .Params.image }}"
+      src="{{ .Site.Params.cloudinary_url }}/f_auto,q_70,w_512/{{ .Params.image }}"
       alt="image of Camilla" />
     </div>
   </figure>

@@ -5,7 +5,7 @@
   <section class="block-container">
    {{ range .RegularPages.ByDate.Reverse }}
     <div class="service">
-      <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
+      <img src="{{ .Site.Params.cloudinary_url }}/{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
       <div class="service-inner text-center">
         <h3 class="service-title">{{ .Title }}</h3>
         <p>{{ .Params.description }}</p>
