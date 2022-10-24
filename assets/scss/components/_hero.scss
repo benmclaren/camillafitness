@@ -1,0 +1,27 @@
+.hero {
+ margin-top: calc(var(--space) *8);
+ margin-bottom: calc(var(--space) *8);
+}
+
+.hero-banner-image {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ img {
+  aspect-ratio: 16/9;
+ }
+}
+
+.hero-banner-image>section>h1 {
+ color: white;
+}
+
+.hero-banner-image>section>h2 {
+ color: white;
+}
+
+.page-banner {
+ position: absolute;
+}
