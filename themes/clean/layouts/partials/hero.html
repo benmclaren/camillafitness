@@ -12,17 +12,16 @@
   </div>  */}}
 
   {{ if isset .Params "hero_banner_image" }}
-  <div class="hero-banner-image">
-    <section class="hero container page-banner" >
-      <h1 class="text-center page-title">{{ .Title }}</h1>
-      {{ with .Params.subtitle }}
-        <h2 class="text-center page-subtitle mt2">{{ . }}</h2>
-      {{ else }}
-        <h2 class="text-center page-subtitle mt2">{{ .Site.Params.subtitle }}</h2>
-      {{ end }}
-    </section>
+    <section class="hero hero--banner-image">
+      <div class="container">
+        <h1 class="text-center page-title">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+          <h2 class="text-center page-subtitle mt2">{{ . }}</h2>
+        {{ else }}
+          <h2 class="text-center page-subtitle mt2">{{ .Site.Params.subtitle }}</h2>
+        {{ end }}
+      </div>
       <img 
-      class="banner-image" 
       sizes="100vw" 
       srcset ="https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 256w,
       https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 512w,
@@ -31,9 +30,9 @@
       https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70/{{ .Params.hero_banner_image }} 3000w"
       src="https://res.cloudinary.com/camillafitness/image/upload/f_auto,q_70,w_512/{{ .Params.hero_banner_image }}"
       alt="image of Camilla" />
-  </div>  
+    </section>  
   {{ else }}
-    <section class="hero container" >
+    <section class="hero hero--text container">
       <h1 class="text-center page-title">{{ .Title }}</h1>
       {{ with .Params.subtitle }}
         <h2 class="text-center page-subtitle mt2">{{ . }}</h2>

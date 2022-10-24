@@ -450,25 +450,25 @@ footer {
     text-decoration: none; }
 
 .hero {
-  margin-top: calc(var(--space) *8);
-  margin-bottom: calc(var(--space) *8); }
-
-.hero-banner-image {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .hero-banner-image img {
-    aspect-ratio: 16/9; }
+  align-items: center;
+  flex-direction: column; }
 
-.hero-banner-image > section > h1 {
-  color: white; }
+.hero--text {
+  aspect-ratio: 16/9; }
 
-.hero-banner-image > section > h2 {
-  color: white; }
+.hero--banner-image img {
+  aspect-ratio: 16/9;
+  max-height: 500px;
+  object-fit: cover; }
 
-.page-banner {
+.hero--banner-image div {
   position: absolute; }
+  .hero--banner-image div h1,
+  .hero--banner-image div h2 {
+    color: white; }
 
 .circle {
   border-radius: 50%; }
@@ -638,14 +638,6 @@ footer {
 .Button--secondary:active,
 .Button--secondary.is-pressed {
   background-color: var(--color-brand); }
-
-.hero-image {
-  margin: calc(var(--space) *8) auto;
-  max-width: 1500px; }
-
-.banner-image {
-  max-height: 500px;
-  object-fit: cover; }
 
 .logo {
   font-size: var(--font-size-md);

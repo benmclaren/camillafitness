@@ -1,27 +1,28 @@
 .hero {
- margin-top: calc(var(--space) *8);
- margin-bottom: calc(var(--space) *8);
-}
-
-.hero-banner-image {
  position: relative;
  display: flex;
  justify-content: center;
  align-items: center;
+ flex-direction: column;
+}
 
+.hero--text {
+ aspect-ratio: 16/9;
+}
+
+.hero--banner-image {
  img {
   aspect-ratio: 16/9;
+  max-height: 500px;
+  object-fit: cover;
  }
-}
 
-.hero-banner-image>section>h1 {
- color: white;
-}
+ div {
+  position: absolute;
 
-.hero-banner-image>section>h2 {
- color: white;
-}
-
-.page-banner {
- position: absolute;
+  h1,
+  h2 {
+   color: white;
+  }
+ }
 }
