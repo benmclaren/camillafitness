@@ -1,4 +1,6 @@
 .page-content {
+  margin-top: calc(var(--space) *8);
+
   p+p {
     margin-top: calc(var(--space) *4);
   }

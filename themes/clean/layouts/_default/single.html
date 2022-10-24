@@ -11,7 +11,7 @@
   {{ $pricingPage := .Site.GetPage "/pricing" }}
   {{ $blocks := .Params.blocks }}
   {{ with $blocks }}
-    <div class="{{ with $pricingPage }}pricing-container{{ else }}block-container{{ end }}">
+    <div class="page-content {{ with $pricingPage }}pricing-container{{ else }}block-container{{ end }}">
       {{ range . }}
           {{ if eq .component "box"  }}
             {{ partial "blocks/box" (dict "Params" .) }}

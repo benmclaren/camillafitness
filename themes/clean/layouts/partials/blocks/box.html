@@ -1,8 +1,8 @@
 <div class="price text-center">
-          {{ $badge_text := .Params.badge_text }}
-          {{- if eq .Params.badge true -}}
-            <span class="badge">{{- $badge_text -}}</span>
-          {{- end -}}
+  {{ $badge_text := .Params.badge_text }}
+  {{- if eq .Params.badge true -}}
+    <span class="badge">{{- $badge_text -}}</span>
+  {{- end -}}
   <h3 class="price-title">{{ .Params.title }}</h3>
   <h4 class="price-subtitle">{{ .Params.description }}</h4>
 </div>
