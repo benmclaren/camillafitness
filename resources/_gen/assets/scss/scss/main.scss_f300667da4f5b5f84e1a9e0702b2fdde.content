@@ -230,8 +230,7 @@ h6 {
 
 h1,
 .h1 {
-  font-size: var(--font-size-xl);
-  line-height: var(--line-height-xs); }
+  font-size: var(--font-size-xl); }
 
 h2,
 .h2 {
@@ -480,6 +479,23 @@ footer {
 .page-content p + p {
   margin-top: calc(var(--space) *4); }
 
+.page-title {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs); }
+
+.page-subtitle {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  line-height: var(--line-height-xs); }
+
+@media (max-width: 900px) {
+  .page-subtitle {
+    font-size: 40px; } }
+
+@media (max-width: 500px) {
+  .page-subtitle {
+    font-size: 32px; } }
+
 .pricing-container {
   padding: calc(var(--space) *4); }
 
@@ -561,16 +577,6 @@ footer {
       grid-column-end: 3;
       grid-row-start: 1; } }
 
-.page-title {
-  font-family: var(--font-mono);
-  font-size: var(--font-size-xs);
-  margin: calc(var(--space) *4) 0; }
-
-.page-subtitle {
-  font-size: var(--font-size-xxl);
-  font-weight: 700;
-  line-height: var(--line-height-xs); }
-
 .service-title {
   font-size: var(--font-size-sm);
   line-height: var(--line-height-lg); }
@@ -581,17 +587,11 @@ footer {
   font-weight: 100; }
 
 @media (max-width: 900px) {
-  .page-subtitle {
-    font-size: 40px; }
   .service-title {
     font-size: 21px; }
   .service-subtitle {
     font-size: 18px;
     letter-spacing: -1px; } }
-
-@media (max-width: 500px) {
-  .page-subtitle {
-    font-size: 32px; } }
 
 .ButtonWrap {
   text-align: center;

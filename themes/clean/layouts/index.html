@@ -3,9 +3,9 @@
     {{ with .Params.subtitle }}
       <h2 class="text-center page-subtitle">{{ . }}</h2>
     {{ else }}
-      <h2 class="text-center page-subtitle">{{ .Site.Params.subtitle }}</h2>
+      <h2 class="text-center page-subtitle mt2">{{ .Site.Params.subtitle }}</h2>
     {{ end }}
-      <h1 class="text-center page-title">{{ .Title }}</h1>
+      <h1 class="text-center page-title mt2">{{ .Title }}</h1>
   </section>
   <figure class="container-wide">
     <div class="aspect-ratio-wide">
