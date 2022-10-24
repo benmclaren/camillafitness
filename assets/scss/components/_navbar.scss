@@ -26,8 +26,8 @@ nav {
 
 footer {
   flex-shrink: 0;
-  padding-top: calc(var(--space) * 8);
-  padding-bottom: calc(var(--space) * 8);
+  margin-top: calc(var(--space) * 8);
+  margin-bottom: calc(var(--space) * 4);
 }
 
 .burger div {
@@ -35,7 +35,7 @@ footer {
   height: 3px;
   background-color: #222;
   margin: 5px;
-  transition: 0.3s cubic-bezier(0.55,0.06,0.68,0.19);
+  transition: 0.3s cubic-bezier(0.55, 0.06, 0.68, 0.19);
 }
 
 .toggle .line-1 {
@@ -87,7 +87,7 @@ footer {
 
   .navbar-footer-links {
     display: flex;
-    
+
     li {
       margin: 0 8px;
     }
@@ -96,11 +96,13 @@ footer {
   .burger {
     display: none;
   }
-//
+
+  //
   .icon {
     position: absolute;
     right: calc(var(--space) *4);
   }
+
   .logo {
     position: absolute;
     left: calc(var(--space) *4);
@@ -115,17 +117,10 @@ footer {
     position: absolute;
     right: calc(var(--space) *4)
   }
-  
+
   .navbar-header,
   .navbar-footer {
     justify-content: center;
   }
-
-
-
-
-
-
-
 
 }
