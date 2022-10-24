@@ -6,7 +6,7 @@
     {{ $testimonials := .Site.Data.testimonials }}
     {{ range $testimonials.testimonial }}
       <p class="mt2">{{ .text }}</p>
-      <p class="mt4 author">{{ .author }}</p>
+      <p class="mt4 font-bold">{{ .author }}</p>
     {{ end }}
   </div>
 
