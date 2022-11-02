@@ -1,5 +1,30 @@
 .page-content {
+  margin-top: calc(var(--space) *8);
+
   p+p {
     margin-top: calc(var(--space) *4);
+  }
+}
+
+.page-title {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+}
+
+.page-subtitle {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  line-height: var(--line-height-xs);
+}
+
+@media(max-width: 900px) {
+  .page-subtitle {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-subtitle {
+    font-size: 32px;
   }
 }

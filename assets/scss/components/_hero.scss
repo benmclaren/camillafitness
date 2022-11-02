@@ -1,0 +1,28 @@
+.hero {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.hero--text {
+ aspect-ratio: 16/9;
+}
+
+.hero--banner-image {
+ img {
+  aspect-ratio: 16/9;
+  max-height: 500px;
+  object-fit: cover;
+ }
+
+ div {
+  position: absolute;
+
+  h1,
+  h2 {
+   color: white;
+  }
+ }
+}
