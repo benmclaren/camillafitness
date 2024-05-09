@@ -46,8 +46,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", hint: "Add a title for the page" }
       - { label: "Date", name: "date", widget: "date", hint: "Set a publish date" }
+      - { label: "Expiry date", name: "expiryDate", widget: "date", hint: "Set an expiry date for the page" }
       - { label: "Slug", name: "slug", widget: "string", hint: "Set the URL path for the page to link to (eg. /about/)" }
-      - { label: "subtitle", name: "subtitle", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", hint: "Describe the content of the page (this is helps search engines rank the page)" }
       - { label: "Body", name: "body", widget: "markdown" }
        # Add page builder blocks
       - label: "Blocks"
