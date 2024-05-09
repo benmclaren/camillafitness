@@ -7,7 +7,11 @@ expiryDate: 2024-05-09T15:45:40+01:00
 subtitle: Easy Cardio Workout
 ---
 
-This is a test page that expires after a certain time/date.
+This is a test page that expires after a certain time/date. Enter a password to reveal the content.
+
+{{< secret "password" >}}
 
 {{< vimeo 55073825 >}}
+
+{{< /secret >}}
 
