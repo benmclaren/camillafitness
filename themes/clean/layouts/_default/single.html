@@ -3,7 +3,7 @@
   {{ partial "hero.html" . }}
 
   {{ with .Content }}
-    <div class="text-container page-content">
+    <div class="text-container region flow">
       {{ . }}
     </div>
   {{ end }}
@@ -11,7 +11,7 @@
   {{ $pricingPage := .Site.GetPage "/pricing" }}
   {{ $blocks := .Params.blocks }}
   {{ with $blocks }}
-    <div class="page-content {{ with $pricingPage }}pricing-container{{ else }}block-container{{ end }}">
+    <div class="container-wide region {{ with $pricingPage }}pricing-container{{ else }}block-container{{ end }}">
       {{ range . }}
           {{ if eq .component "box"  }}
             {{ partial "blocks/box" (dict "Params" .) }}

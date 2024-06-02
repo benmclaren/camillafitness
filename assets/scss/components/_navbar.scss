@@ -24,12 +24,6 @@ nav {
   display: none;
 }
 
-footer {
-  flex-shrink: 0;
-  margin-top: calc(var(--space) * 8);
-  margin-bottom: calc(var(--space) * 4);
-}
-
 .burger div {
   width: 25px;
   height: 3px;

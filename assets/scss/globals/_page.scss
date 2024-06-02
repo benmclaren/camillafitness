@@ -1,14 +1,6 @@
-.page-content {
-  margin-top: calc(var(--space) *8);
-
-  p+p {
-    margin-top: calc(var(--space) *4);
-  }
-}
-
 .page-title {
   font-family: var(--font-mono);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-s);
 }
 
 .page-subtitle {
