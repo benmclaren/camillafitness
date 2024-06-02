@@ -1,0 +1,13 @@
+form {
+  width: 70%;
+  
+  @include breakpoint(lg) {
+    width: 50%;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+  }
+}

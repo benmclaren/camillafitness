@@ -7,7 +7,7 @@
     {{ end }}
       <h2 class="text-center page-title mt2">{{ .Title }}</h2>
   </section>
-  <figure class="container-wide">
+  <figure>
     <div class="aspect-ratio-wide">
       <img 
           sizes="(min-width: 30em) 28em, 100vw" 
@@ -33,7 +33,7 @@
     </blockquote>
   </section>
 
-  <div class= "block-container">
+  <section class= "block-container">
     {{ range where .Site.RegularPages "Section" "services" }}
         <div class="service">
           <img src="{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
@@ -44,7 +44,9 @@
           </div>
         </div>
     {{ end }}
-  </div>
+  </section>
+
+  {{ partial "email-capture.html" . }}
 
 {{ end }}
 
