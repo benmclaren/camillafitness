@@ -6,8 +6,7 @@
 .Button {
   border: none;
   font-family: var(--font-mono);
-  font-size: var(--font-size-xxs);
-  letter-spacing: 1px;
+  font-size: var(--font-size-xs);
   padding: calc(var(--space)*1.5) calc(var(--space) *2);
   transition-duration: 0.2s;
   vertical-align: middle;
@@ -33,11 +32,9 @@
 }
 
 .Button--secondary {
-  background: var(--color-dark);
-  color: var(--color-white) !important;
+  background: var(--color-white);
+  color: var(--color-dark) !important;
   padding: 14px 20px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
   text-rendering: optimizeLegibility;
