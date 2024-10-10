@@ -9,7 +9,7 @@ subtitle: Feel stronger, fitter, the best you’ve ever felt.
 
 Add movement in to your day.
 
-Are you looking for an online (platform)/course that will make you feel stronger, fitter, the best you can feel by adding movement in to your day?
+Are you looking for an online course that will make you feel stronger, fitter, the best you can feel by adding movement in to your day?
 
 Strength Training with Camilla is your answer - suitable for everyone, adaptations of exercises shown for beginners.
 
@@ -28,16 +28,15 @@ Through a consistent training programme you will:
 
 ## How it works
 
-This is an 8 week course. Each week you will recieve 2 sessions by email. Each session is approximately 30-40 mins. 
+This is an 6 week course. Each week you will recieve 2 sessions by email. Each session is approximately 30-40 mins. 
 
-One class will focus on upper body and core strength, and the other will focus on lower body/core, designed to elevate your heart rate.  
-
+One class is focussed on upper body and core strength and the other is lower body/core focussed also designed to elevate your heart rate.  
 
 ## How much does it cost?
 
-£50 - 8 week course (can we add the discount % as my current course is 6 weeks long) I think it sounds good to write 30% off if that's what it is... 
+£50 - 6 week course.
 
-Next course starts 28th October - taking you up until Christmas. 
+Next course starts 4th November.
 
 Use it or Lose it, get started today!
 
