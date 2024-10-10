@@ -2,13 +2,16 @@
 
   {{ partial "hero.html" . }}
  
-  <div class="text-container region text-center">
+  <section class="text-container region">
     {{ $testimonials := .Site.Data.testimonials }}
     {{ range $testimonials.testimonial }}
-      <p class="mt2">{{ .text }}</p>
-      <p class="mt4 font-bold">{{ .author }}</p>
+      <blockquote class="region flow text-center" style="--region-space: 2rem;">
+        {{ .text | markdownify }}
+        <p class="mt4 font-bold">{{ .author }}</p>
+      </blockquote>
+      
     {{ end }}
-  </div>
+  </section>
 
   {{ partial "email-capture.html" . }}
 
