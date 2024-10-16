@@ -5,11 +5,11 @@
 <button
   style="margin: 3rem 0;"
   class="Button Button--primary"
-  id="checkout-button-price_1QAU2H02Ri5PNG8PkeOkoZwg"
+  id="checkout-button-price_1QAUPk02Ri5PNG8PJbacy4b8"
   role="link"
   type="button"
 >
-  Checkout
+  Sign up
 </button>
 
 <div id="error-message"></div>
@@ -18,14 +18,14 @@
 (function() {
   var stripe = Stripe('pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1QAU2H02Ri5PNG8PkeOkoZwg');
+  var checkoutButton = document.getElementById('checkout-button-price_1QAUPk02Ri5PNG8PJbacy4b8');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1QAU2H02Ri5PNG8PkeOkoZwg', quantity: 1}],
+      lineItems: [{price: 'price_1QAUPk02Ri5PNG8PJbacy4b8', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
