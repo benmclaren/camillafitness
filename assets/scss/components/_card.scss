@@ -1,0 +1,7 @@
+.card {
+  padding: 3rem;
+}
+
+.card:not(:last-of-type) {
+  border-bottom: dashed 2px var(--color-dark);
+}

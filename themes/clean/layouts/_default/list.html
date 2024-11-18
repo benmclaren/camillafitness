@@ -2,13 +2,17 @@
  
  {{ partial "hero.html" . }}
 
-  <section class="block-container">
-   {{ range .RegularPages.ByDate.Reverse }}
-    <div class="service">
-      <img src="{{ .Site.Params.cloudinary_url }}/{{ .Params.featured_image }}" alt="{{ .Params.featured_alt }}">
-      <div class="service-inner text-center">
-        <h3 class="service-title">{{ .Title }}</h3>
-        <p>{{ .Params.description }}</p>
+  <section class="container">
+   {{ range .RegularPages.ByDate }}
+    <div class="card | region flow text-center">
+      <h3>{{ .Title }}</h3>
+      {{ with .Summary }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{ with .Params.price }}
+        <p><strong>{{ . }}</strong></p>
+      {{ end }}
+      <div>
         <a href="{{ .Permalink }}">Find out more</a>
       </div>
     </div>
