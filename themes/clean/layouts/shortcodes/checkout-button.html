@@ -1,4 +1,5 @@
 {{ $price_key := .Get "price_key" }}
+{{ $pk_key := .Get "pk_key" }}
 
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>
@@ -18,7 +19,7 @@
 
 <script>
 (function() {
-  var stripe = Stripe('pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL');
+  var stripe = Stripe('{{ $pk_key }}');
 
   var checkoutButton = document.getElementById('checkout-button-price_{{ $price_key }}');
   checkoutButton.addEventListener('click', function () {
