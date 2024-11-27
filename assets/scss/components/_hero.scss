@@ -7,13 +7,12 @@
 }
 
 .hero--text {
- aspect-ratio: 16/9;
+ aspect-ratio: 16/7;
 }
 
 .hero--banner-image {
  img {
-  aspect-ratio: 16/9;
-  max-height: 500px;
+  max-height: 600px;
   object-fit: cover;
  }
 

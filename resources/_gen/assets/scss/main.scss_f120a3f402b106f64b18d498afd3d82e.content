@@ -68,15 +68,14 @@ aside.primary {
   src: local(""), url("../fonts/dm-sans-v6-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-sans-v6-latin-700.woff2") format("woff2"), url("../fonts/dm-sans-v6-latin-700.woff") format("woff"), url("../fonts/dm-sans-v6-latin-700.ttf") format("truetype"), url("../fonts/dm-sans-v6-latin-700.svg#DMSans") format("svg");
   /* Legacy iOS */ }
 
-/* roboto-mono-300 - latin */
 @font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Roboto Mono';
   font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/roboto-mono-v12-latin-300.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-mono-v12-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-mono-v12-latin-300.woff2") format("woff2"), url("../fonts/roboto-mono-v12-latin-300.woff") format("woff"), url("../fonts/roboto-mono-v12-latin-300.ttf") format("truetype"), url("../fonts/roboto-mono-v12-latin-300.svg#RobotoMono") format("svg");
-  /* Legacy iOS */ }
+  font-weight: 400;
+  src: url("../fonts/roboto-mono-v23-latin-regular.woff2") format("woff2");
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ }
 
 /* roboto-mono-700 - latin */
 @font-face {
@@ -130,7 +129,7 @@ aside.primary {
       --font-size-lg: 3rem;
       --font-size-md: 2.5rem;
       --font-size-sm: 2rem;
-      --font-size-xs: 1.25rem;
+      --font-size-xs: 1rem;
       --font-size-default: 1.13rem;
       --font-size-xxs: 0.88rem; } }
 /*
@@ -221,20 +220,12 @@ h6 {
   font-family: var(--font-heading);
   font-weight: 500; }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  letter-spacing: -1.5px; }
-
 h1,
 .h1 {
   font-size: var(--font-size-xl); }
 
 h2,
 .h2 {
-  font-weight: 400;
   font-size: var(--font-size-md);
   line-height: var(--line-height-sm); }
 
@@ -297,11 +288,13 @@ p > code {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px; }
+  max-width: 960px;
+  padding: calc(var(--space) *4); }
 
 .container-wide {
   margin-left: auto;
   margin-right: auto;
+  padding-inline: calc(var(--space) *4);
   max-width: 1500px; }
 
 .text-container {
@@ -348,11 +341,6 @@ nav {
 
 .navbar-desktop-links {
   display: none; }
-
-footer {
-  flex-shrink: 0;
-  margin-top: calc(var(--space) * 8);
-  margin-bottom: calc(var(--space) * 4); }
 
 .burger div {
   width: 25px;
@@ -412,7 +400,7 @@ footer {
   .footer-logo {
     position: absolute;
     left: calc(var(--space) *4); }
-  .Button--primary {
+  nav .Button--primary {
     position: absolute;
     right: calc(var(--space) *4); }
   .navbar-header,
@@ -459,11 +447,10 @@ footer {
   flex-direction: column; }
 
 .hero--text {
-  aspect-ratio: 16/9; }
+  aspect-ratio: 16/7; }
 
 .hero--banner-image img {
-  aspect-ratio: 16/9;
-  max-height: 500px;
+  max-height: 600px;
   object-fit: cover; }
 
 .hero--banner-image div {
@@ -472,17 +459,35 @@ footer {
   .hero--banner-image div h2 {
     color: white; }
 
+form {
+  width: 70%; }
+  @media (min-width: 75em) {
+    form {
+      width: 50%; } }
+  form input {
+    display: block;
+    width: 100%;
+    padding: .5rem; }
+
+.email-capture {
+  background-color: var(--color-highlight);
+  padding-block: 4rem;
+  display: flex;
+  justify-content: center; }
+  .email-capture h2 {
+    text-align: center; }
+
+footer {
+  flex-shrink: 0;
+  margin-top: calc(var(--space) * 4);
+  margin-bottom: calc(var(--space) * 4); }
+
 .circle {
   border-radius: 50%; }
 
-.page-content {
-  margin-top: calc(var(--space) *8); }
-  .page-content p + p {
-    margin-top: calc(var(--space) *4); }
-
 .page-title {
   font-family: var(--font-mono);
-  font-size: var(--font-size-xs); }
+  font-size: var(--font-size-s); }
 
 .page-subtitle {
   font-size: var(--font-size-xxl);
@@ -500,19 +505,13 @@ footer {
 .pricing-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 4rem;
-  padding-left: calc(var(--space) *2);
-  padding-right: calc(var(--space) *2);
-  margin-left: auto;
-  margin-right: auto; }
+  grid-gap: 2rem; }
 
 @media (min-width: 75em) {
   .pricing-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: calc(1rem*4);
-    padding-left: calc(var(--space) *4);
-    padding-right: calc(var(--space) *4); }
+    grid-gap: 4rem; }
   .price:first-child {
     grid-area: 1 / 1 / 2 / 5; }
   .price:nth-child(2) {
@@ -605,8 +604,7 @@ footer {
 .Button {
   border: none;
   font-family: var(--font-mono);
-  font-size: var(--font-size-xxs);
-  letter-spacing: 1px;
+  font-size: var(--font-size-xs);
   padding: calc(var(--space)*1.5) calc(var(--space) *2);
   transition-duration: 0.2s;
   vertical-align: middle;
@@ -628,11 +626,9 @@ footer {
   text-rendering: optimizeLegibility; }
 
 .Button--secondary {
-  background: var(--color-dark);
-  color: var(--color-white) !important;
+  background: var(--color-white);
+  color: var(--color-dark) !important;
   padding: 14px 20px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: none;
   text-rendering: optimizeLegibility; }
@@ -770,6 +766,28 @@ body {
 main {
   flex: 1 0 auto; }
 
+/*
+FLOW
+Applies a margin to sibling elements based on a --flow-space custom property.
+@link: See The Stack in Every Layout https://every-layout.dev/layouts/stack/
+@link: https://piccalil.li/tutorial/improve-the-readability-of-the-content-on-your-website#heading-the-flow-utility
+@link: https://piccalil.li/quick-tip/flow-utility/
+*/
+.flow > * + * {
+  margin-top: var(--flow-space, 1em); }
+
+/*
+REGION 
+Add consistent vertical padding to create regions of content 
+Can either be configured by setting --region-space or use a default from the space scale
+*/
+.region {
+  padding-top: var(--region-space, 3rem);
+  padding-bottom: var(--region-space, 3rem); }
+  @media (min-width: 75em) {
+    .region {
+      padding-top: var(--region-space, 5rem);
+      padding-bottom: var(--region-space, 5rem); } }
 * {
   margin: 0;
   padding: 0; }
