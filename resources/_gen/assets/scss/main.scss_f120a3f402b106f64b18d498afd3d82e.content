@@ -132,32 +132,14 @@ aside.primary {
       --font-size-xs: 1rem;
       --font-size-default: 1.13rem;
       --font-size-xxs: 0.88rem; } }
-/*
- * Thanks to Mattias: https://matthiasott.com/notes/focus-visible-is-here
-*/
-:focus {
-  outline: 3px solid var(--color-accent); }
-
-:focus:not(:focus-visible) {
-  outline: 0; }
-
-:focus-visible {
-  outline: 3px solid var(--color-accent); }
-
-a:not([class]) {
-  color: var(--color-brand);
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-skip-ink: auto; }
-  a:not([class]):hover {
-    color: var(--color-accent); }
-  a:not([class]):active, a:not([class]):focus {
-    outline: dotted 1px var(--color-brand); }
-
 *,
 *::before,
 *::after {
   box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 html {
   height: 100%; }
@@ -200,6 +182,31 @@ button,
 textarea,
 select {
   font: inherit; }
+
+[hidden] {
+  display: none; }
+
+/*
+ * Thanks to Mattias: https://matthiasott.com/notes/focus-visible-is-here
+*/
+:focus {
+  outline: 3px solid var(--color-accent); }
+
+:focus:not(:focus-visible) {
+  outline: 0; }
+
+:focus-visible {
+  outline: 3px solid var(--color-accent); }
+
+a:not([class]) {
+  color: var(--color-brand);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto; }
+  a:not([class]):hover {
+    color: var(--color-accent); }
+  a:not([class]):active, a:not([class]):focus {
+    outline: dotted 1px var(--color-brand); }
 
 body {
   color: var(--color-body);
@@ -252,6 +259,23 @@ p > code {
   color: var(--color-accent);
   font-size: 93%;
   padding: 4px; }
+
+form {
+  width: 70%; }
+  @media (min-width: 75em) {
+    form {
+      width: 50%; } }
+  form input {
+    display: block;
+    width: 100%;
+    padding: .5rem; }
+
+footer {
+  flex-shrink: 0;
+  margin-top: calc(var(--space) * 4);
+  margin-bottom: calc(var(--space) * 4); }
+  footer .circle {
+    border-radius: 50%; }
 
 #aqua {
   border: 2px dashed var(--color-aqua); }
@@ -446,9 +470,6 @@ nav {
   align-items: center;
   flex-direction: column; }
 
-.hero--text {
-  aspect-ratio: 16/7; }
-
 .hero--banner-image img {
   max-height: 600px;
   object-fit: cover; }
@@ -459,16 +480,6 @@ nav {
   .hero--banner-image div h2 {
     color: white; }
 
-form {
-  width: 70%; }
-  @media (min-width: 75em) {
-    form {
-      width: 50%; } }
-  form input {
-    display: block;
-    width: 100%;
-    padding: .5rem; }
-
 .email-capture {
   background-color: var(--color-highlight);
   padding-block: 4rem;
@@ -477,13 +488,90 @@ form {
   .email-capture h2 {
     text-align: center; }
 
-footer {
-  flex-shrink: 0;
-  margin-top: calc(var(--space) * 4);
-  margin-bottom: calc(var(--space) * 4); }
+.ButtonWrap {
+  text-align: center;
+  margin-top: calc(var(--space) * 8) !important; }
 
-.circle {
-  border-radius: 50%; }
+.Button {
+  border: none;
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  padding: calc(var(--space)*1.5) calc(var(--space) *2);
+  transition-duration: 0.2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none; }
+  .Button:hover {
+    border: none;
+    text-decoration: none !important; }
+
+.Button--primary {
+  background: var(--color-dark);
+  color: var(--color-white) !important;
+  padding: 14px 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  text-rendering: optimizeLegibility; }
+
+.Button--secondary {
+  background: var(--color-white);
+  color: var(--color-dark) !important;
+  padding: 14px 20px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  text-rendering: optimizeLegibility; }
+
+.Button--primary:hover,
+.Button--primary:focus,
+.Button--primary:active,
+.Button--primary.is-pressed,
+.Button--secondary:hover,
+.Button--secondary:focus,
+.Button--secondary:active,
+.Button--secondary.is-pressed {
+  background-color: var(--color-brand); }
+
+.logo {
+  font-size: var(--font-size-md);
+  text-decoration: none;
+  color: var(--color-dark);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -3px;
+  transition: .2s; }
+  .logo:hover {
+    color: var(--color-brand); }
+
+.footer-logo {
+  text-decoration: none;
+  border: 3px dashed var(--color-aqua);
+  padding: calc(var(--space) * 3);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-aqua); }
+  .footer-logo:hover {
+    color: var(--color-dark);
+    border: 3px dashed var(--color-dark); }
+
+svg:hover {
+  fill: linear-gradient(#405de6, #5851db, #833ab4); }
+
+.card {
+  padding: 3rem; }
+
+.card:not(:last-of-type) {
+  border-bottom: dashed 2px var(--color-dark); }
+
+.promo-banner {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding-inline: var(--space);
+  padding-block: var(--space); }
+  .promo-banner a {
+    color: var(--color-accent); }
 
 .page-title {
   font-family: var(--font-mono);
@@ -596,77 +684,6 @@ footer {
   .service-subtitle {
     font-size: 18px;
     letter-spacing: -1px; } }
-
-.ButtonWrap {
-  text-align: center;
-  margin-top: calc(var(--space) * 4); }
-
-.Button {
-  border: none;
-  font-family: var(--font-mono);
-  font-size: var(--font-size-xs);
-  padding: calc(var(--space)*1.5) calc(var(--space) *2);
-  transition-duration: 0.2s;
-  vertical-align: middle;
-  white-space: nowrap;
-  cursor: pointer;
-  text-decoration: none; }
-  .Button:hover {
-    border: none;
-    text-decoration: none !important; }
-
-.Button--primary {
-  background: var(--color-dark);
-  color: var(--color-white) !important;
-  padding: 14px 20px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: none;
-  text-rendering: optimizeLegibility; }
-
-.Button--secondary {
-  background: var(--color-white);
-  color: var(--color-dark) !important;
-  padding: 14px 20px;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: none;
-  text-rendering: optimizeLegibility; }
-
-.Button--primary:hover,
-.Button--primary:focus,
-.Button--primary:active,
-.Button--primary.is-pressed,
-.Button--secondary:hover,
-.Button--secondary:focus,
-.Button--secondary:active,
-.Button--secondary.is-pressed {
-  background-color: var(--color-brand); }
-
-.logo {
-  font-size: var(--font-size-md);
-  text-decoration: none;
-  color: var(--color-dark);
-  font-family: var(--font-heading);
-  font-weight: 700;
-  letter-spacing: -3px;
-  transition: .2s; }
-  .logo:hover {
-    color: var(--color-brand); }
-
-.footer-logo {
-  text-decoration: none;
-  border: 3px dashed var(--color-aqua);
-  padding: calc(var(--space) * 3);
-  font-family: var(--font-heading);
-  font-weight: 700;
-  color: var(--color-aqua); }
-  .footer-logo:hover {
-    color: var(--color-dark);
-    border: 3px dashed var(--color-dark); }
-
-svg:hover {
-  fill: linear-gradient(#405de6, #5851db, #833ab4); }
 
 /*------------------------------------*\
     #COMPONENTS: RATIO
@@ -788,9 +805,7 @@ Can either be configured by setting --region-space or use a default from the spa
     .region {
       padding-top: var(--region-space, 5rem);
       padding-bottom: var(--region-space, 5rem); } }
-* {
-  margin: 0;
-  padding: 0; }
-
-[hidden] {
-  display: none; }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

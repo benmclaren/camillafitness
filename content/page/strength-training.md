@@ -40,4 +40,4 @@ Next course starts 4th November.
 
 Use it or Lose it, get started today!
 
-{{< checkout-button >}}
+{{< checkout-button price_key="1QAUob02Ri5PNG8PsKAQpb9M" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}

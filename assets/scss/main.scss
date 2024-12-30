@@ -1,16 +1,5 @@
 @import "abstracts/index.scss";
 @import "base/index.scss";
 @import "components/index.scss";
-@import "globals/index.scss";
-@import "objects/index.scss";
+@import "compositions/index.scss";
 @import "utilities/index.scss";
-
-// css reset 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-[hidden] {
-  display: none;
-}

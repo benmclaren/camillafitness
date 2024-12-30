@@ -4,40 +4,41 @@ title = "Camilla Fitness"
 theme = "clean"
 
 [permalinks]
-  page = "/:slug/"
-  form = "/:slug/"
+page = "/:slug/"
+form = "/:slug/"
+programs = "/:slug/"
 
 [[menu.nav]]
-  name = "About"
-  url = "/about/"
-  weight = 5
+name = "About"
+url = "/about/"
+weight = 5
 
 [[menu.nav]]
-  name = "Services"
-  url = "/services/"
-  weight = 10
+name = "Services"
+url = "/services/"
+weight = 10
 
 [[menu.nav]]
-  name = "Testimonials"
-  url = "/testimonials/"
-  weight = 15
+name = "Testimonials"
+url = "/testimonials/"
+weight = 15
 
 [[menu.nav]]
-  name = "Pricing"
-  url = "/pricing/"
-  weight = 20
+name = "Pricing"
+url = "/pricing/"
+weight = 20
 
 [[menu.nav]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 25
+name = "Contact"
+url = "/contact/"
+weight = 25
 
-[params]  
-  socialInstagram = "https://www.instagram.com/camillafitness_pt/"
-  subtitle = "Feel good in your body, heart and mind. Camilla Cresswell, Personal Training, Pre & Post Natal & HIIT Classes."
-  cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/fetch"
+[params]
+socialInstagram = "https://www.instagram.com/camillafitness_pt/"
+subtitle = "Feel good in your body, heart and mind. Camilla Cresswell, Personal Training, Pre & Post Natal & HIIT Classes."
+cloudinary_url = "https://res.cloudinary.com/harrycresswell/image/fetch"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
