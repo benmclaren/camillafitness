@@ -565,6 +565,14 @@ svg:hover {
 .card:not(:last-of-type) {
   border-bottom: dashed 2px var(--color-dark); }
 
+.promo-banner {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding-inline: var(--space);
+  padding-block: var(--space); }
+  .promo-banner a {
+    color: var(--color-accent); }
+
 .page-title {
   font-family: var(--font-mono);
   font-size: var(--font-size-s); }
@@ -797,3 +805,7 @@ Can either be configured by setting --region-space or use a default from the spa
     .region {
       padding-top: var(--region-space, 5rem);
       padding-bottom: var(--region-space, 5rem); } }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

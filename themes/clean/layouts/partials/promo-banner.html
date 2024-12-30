@@ -1,0 +1,7 @@
+{{ if eq .Site.Data.promobanner.show true }}
+<aside class="promo-banner center font-mono">
+  <p>
+    {{ .Site.Data.promobanner.text | markdownify }}
+  </p>
+</aside>
+{{ end }}
