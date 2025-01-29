@@ -5,7 +5,7 @@
   <section class="container">
    {{ range .RegularPages.ByDate }}
     <div class="card | region flow text-center">
-      <h3>{{ .Title }}</h3>
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
       {{ with .Summary }}
         <p>{{ . }}</p>
       {{ end }}

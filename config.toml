@@ -33,6 +33,17 @@ name = "Contact"
 url = "/contact/"
 weight = 25
 
+
+[[menu.legal]]
+name = "Privacy policy"
+url = "/privacy/"
+weight = 5
+
+[[menu.legal]]
+name = "Terms of service"
+url = "/terms-of-service/"
+weight = 10
+
 [params]
 socialInstagram = "https://www.instagram.com/camillafitness_pt/"
 subtitle = "Feel good in your body, heart and mind. Camilla Cresswell, Personal Training, Pre & Post Natal & HIIT Classes."

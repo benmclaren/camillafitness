@@ -20,6 +20,10 @@
     </div>
   {{ end }}
 
-  {{ partial "email-capture.html" . }}
+  {{ $newsletter := .Params.newsletter_signup }}
+
+  {{ if ne $newsletter false }}
+    {{ partial "email-capture.html" . }}
+  {{ end }}
 
 {{ end }}
