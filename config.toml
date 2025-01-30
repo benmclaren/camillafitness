@@ -19,19 +19,24 @@ url = "/services/"
 weight = 10
 
 [[menu.nav]]
+name = "Programs"
+url = "/programs/"
+weight = 15
+
+[[menu.nav]]
 name = "Testimonials"
 url = "/testimonials/"
-weight = 15
+weight = 20
 
 [[menu.nav]]
 name = "Pricing"
 url = "/pricing/"
-weight = 20
+weight = 25
 
 [[menu.nav]]
 name = "Contact"
 url = "/contact/"
-weight = 25
+weight = 30
 
 
 [[menu.legal]]
