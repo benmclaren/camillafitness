@@ -49,4 +49,4 @@ Dumbbells, a band and a mat.
 
 £50
 
-{{< checkout-button price_key="1QMYaC02Ri5PNG8Px5zE4IR4" pk_key="pk_test_51PuymZ02Ri5PNG8PAv31z1zrloMlYl7riBrqs4ctZJsdBahyBcIMr3Cpg8vuuw6kJsGdMaoXReqr2mzBOMjTBlqZ00Adsl3zVJ" >}}
+{{< checkout-button price_key="1QnMjQ02Ri5PNG8PsvKDBFZ2" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}
