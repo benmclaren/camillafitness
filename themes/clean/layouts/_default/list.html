@@ -9,9 +9,18 @@
       {{ with .Summary }}
         <p>{{ . }}</p>
       {{ end }}
-      {{ with .Params.price }}
-        <p><strong>{{ . }}</strong></p>
-      {{ end }}
+      <div class="center">
+        <div class="cluster">
+          {{ with .Params.price }}
+            <p><strong>{{ . | markdownify }}</strong></p>
+          {{ end }}
+          {{ with .Params.discount_text }}
+            <span class="badge">
+              {{ . }}
+            </span>
+          {{ end }}
+        </div>
+      </div>
       <div>
         <a href="{{ .Permalink }}">Find out more</a>
       </div>

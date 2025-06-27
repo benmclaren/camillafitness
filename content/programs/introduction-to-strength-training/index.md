@@ -2,7 +2,8 @@
 title: Introduction to Strength Training for Beginners
 slug: beginners-strength
 subtitle: A 6 week introduction to strength training. 
-price: £50
+price: ~~£50~~ £35
+discount_text: 30% off
 date: 2024-11-16T15:13:58.000+00:00
 ---
 
@@ -46,6 +47,6 @@ Dumbbells, a band and a mat.
 
 ## How much does it cost?
 
-£50
+~~£50~~ £35
 
-{{< checkout-button price_key="1QnMjd02Ri5PNG8PouOealYN" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}
+{{< checkout-button price_key="1ReZGn02Ri5PNG8PtvtrJneh" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}

@@ -2,7 +2,8 @@
 title: Progressive Strength Training
 slug: progressive-strength
 subtitle: A 6 week intermediate program designed to help you improve your strength.
-price: £50
+price: ~~£50~~ £35
+discount_text: 30% off
 date: 2024-11-18T15:13:58.000+00:00
 ---
 
@@ -47,6 +48,6 @@ Dumbbells, a band and a mat.
 
 ## How much does it cost?
 
-£50
+~~£50~~ £35
 
-{{< checkout-button price_key="1QnMjQ02Ri5PNG8PsvKDBFZ2" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}
+{{< checkout-button price_key="1ReZHg02Ri5PNG8POTblocIm" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}

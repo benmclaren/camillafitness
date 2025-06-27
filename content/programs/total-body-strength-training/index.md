@@ -3,7 +3,8 @@ title: Total Body Strength Training
 slug: total-strength
 date: 2024-11-17T15:13:58.000+00:00
 subtitle: A 6 week program for all levels.
-price: £50
+price: ~~£50~~ £35
+discount_text: 30% off
 ---
 
 Have you been strength training for a while but feel like you aren't progressing? Do you find yourself following random classes here and there? Do you feel you could benefit from following a structured programme that will bring results?
@@ -47,7 +48,7 @@ Dumbbells, a band and a mat.
 
 ## How much does it cost?
 
-£50
+~~£50~~ £35
 
 
-{{< checkout-button price_key="1QnMjV02Ri5PNG8Pdsu0Ek0W" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}
+{{< checkout-button price_key="1ReZHF02Ri5PNG8PV70cJO64" pk_key="pk_live_51PuymZ02Ri5PNG8PNxW4E69rWyhCmOCNYqUnRQn2wqYFwnxmDKVcyBnm8yCPk5rNtrotiultaAutzMZRbM7ymPXm007XrgmAfL" >}}
