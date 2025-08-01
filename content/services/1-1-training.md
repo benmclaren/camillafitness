@@ -1,13 +1,12 @@
 ---
 title: 1-1 Personal Training
 date: 2020-12-04T14:37:07.000+00:00
-slug: personal-training
+description: I offer one to one personal training sessions tailored to your
+  personal fitness goals.
 subtitle: Achieve your goals
-description: I offer one to one personal training sessions tailored to your personal
-  fitness goals.
-featured_image: https://res.cloudinary.com/camillafitness/image/upload/v1664793993/camilla-boxing_dtysbh.jpg
+slug: personal-training
+featured_image: https://res.cloudinary.com/harrycresswell/image/upload/v1614015512/camillafitness/camilla-boxing.jpg
 featured_alt: Featured image of Camilla
-
 ---
 Camilla will create a bespoke programme taking into consideration your
 current level of fitness. The most desirable benefit of personal training is to
@@ -19,9 +18,9 @@ your chances of reaching goals quickly. No one works as hard alone as
 they do when there is someone standing beside them encouraging and
 pushing ahead.
 
-If you're struggling to find motivation, lack confidence with exercise, or have no idea where to start, personal training is definitely for you.
+If you're an athlete who wants to build strength training into an exisiting cardio programme, Camilla is here to do just that. Equally if you're struggling to find motivation, lack confidence with exercise or have no idea where to start, personal training is definitely for you.
 
-Camilla has enthusiasm for life. Her positive outlook is infectious and you
+Camilla's enthusiasm for life and positive outlook is infectious and you
 will leave your sessions feeling invigorated, upbeat and ready to take on
 what the world throws at you!
 
