@@ -1,14 +1,13 @@
 ---
 title: Post Partum
 date: 2020-12-02T14:39:29.000+00:00
-slug: post-partum-training
+description: "I will create a bespoke programme taking into consideration your
+  unique birthing experience, pelvic floor weaknesses, diastasis recti
+  (separation of abdominal muscles) and postural imbalances. "
 subtitle: Regain your physical strength
-description: I can create a bespoke programme taking into consideration your unique
-  birthing experience, pelvic floor weaknesses, diastasis recti (separation of abdominal
-  muscles) and postural imbalances.
+slug: post-partum-training
 featured_image: https://res.cloudinary.com/camillafitness/image/upload/v1664793994/yoga-bridge_a0doy1.jpg
 featured_alt: Featured image of Camilla
-
 ---
 Camilla can create a bespoke programme taking into
 consideration your unique birthing experience, pelvic floor
