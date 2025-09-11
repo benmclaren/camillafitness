@@ -14,14 +14,14 @@ blocks:
     width: full
   - component: box
     title: 1-1 Personal Training (4 sessions)
-    description: £195
+    description: £215
     color: true
     badge: false
     badge_text: 12.5.%
     width: half
   - component: box
     title: 1-1 Personal Training (12 sessions)
-    description: £540
+    description: £600
     color: true
     badge: false
     badge_text: 12.5% off
@@ -35,7 +35,7 @@ blocks:
     width: half
   - component: box
     title: 2-1 Train with a partner
-    description: £70 per session/£35 per person
+    description: £80 per session/£40 per person
     color: true
     badge: false
     badge_text: 12.5% off
