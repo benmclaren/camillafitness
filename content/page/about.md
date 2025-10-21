@@ -34,9 +34,10 @@ wide.
 
 ## Qualifications
 
-- Certified Level 3 Personal Trainer
-- Certified Pre and Post Natal Personal Trainer
-- A member of The Chartered Institute for the Management of Sport and Physical Activity
+- NASM Certified Level 3 Personal Trainer
+- NASM Certified Pre and Post Natal Personal Trainer
+- A member of The Chartered Institute for the Management of Sport and Physical Activity (CIMSPA)
+- British Triathlon Foundation Coach
 - Age Group Triathlete for Great Britain
 
 ## Philosophy & Motivation
